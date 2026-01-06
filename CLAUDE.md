@@ -6,7 +6,7 @@ Interactive visualization tool for comparing electric vehicles available in Swed
 
 ## Files
 
-- `evs.yaml` - EV dataset with 77 vehicles, specs, pricing (SEK), and references
+- `evs.yaml` - EV dataset with 83 vehicles, specs, pricing (SEK), and references
 - `index.html` - D3.js visualization with interactive parallel coordinates plot
 
 ## Data Structure

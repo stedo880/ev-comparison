@@ -2098,3 +2098,168 @@ evs:
     notes: "7-seater luxury SUV. 118 kWh battery."
     references:
       - https://ev-database.org/car/2087/Mercedes-Benz-EQS-SUV-450plus
+
+  # ============================================================================
+  # BMW i4
+  # ============================================================================
+  - make: BMW
+    model: i4
+    submodel: eDrive40
+    year: 2025
+    price_sek: 599900
+
+    range_km_wltp: 600
+    battery_kwh: 81.3
+
+    dc_charge_max_kw: 207
+    charge_10_80_min: 27
+
+    power_hp: 340
+    acceleration_0_100: 5.6
+    top_speed_kmh: 190
+    drive: RWD
+
+    cargo_liters: 470
+    seats: 5
+    tow_capacity_kg: 1600
+
+    notes: "Gran Coupe body style."
+    references:
+      - https://ev-database.org/car/2199/BMW-i4-eDrive40
+      - https://www.bmw.se/sv/alla-modeller/i-series/i4/bmw-i4-gran-coupe.html
+
+  - make: BMW
+    model: i4
+    submodel: xDrive40
+    year: 2025
+    price_sek: 660900
+
+    range_km_wltp: 548
+    battery_kwh: 81.3
+
+    dc_charge_max_kw: 207
+    charge_10_80_min: 27
+
+    power_hp: 401
+    acceleration_0_100: 5.1
+    top_speed_kmh: 200
+    drive: AWD
+
+    cargo_liters: 470
+    seats: 5
+    tow_capacity_kg: 1600
+
+    notes: "Gran Coupe body style. AWD variant."
+    references:
+      - https://ev-database.org/car/2200/BMW-i4-xDrive40
+      - https://www.bmw.se/sv/alla-modeller/i-series/i4/bmw-i4-gran-coupe.html
+
+  # ============================================================================
+  # BMW i5
+  # ============================================================================
+  - make: BMW
+    model: i5
+    submodel: eDrive40 Sedan
+    year: 2025
+    price_sek: 699900
+
+    range_km_wltp: 582
+    battery_kwh: 81.2
+
+    dc_charge_max_kw: 206
+    charge_10_80_min: 26
+
+    power_hp: 340
+    acceleration_0_100: 6.0
+    top_speed_kmh: 193
+    drive: RWD
+
+    cargo_liters: 490
+    seats: 5
+    tow_capacity_kg: 1500
+
+    notes: "Active Edition base price."
+    references:
+      - https://ev-database.org/car/1906/BMW-i5-eDrive40-Sedan
+      - https://www.bmw.se/sv/alla-modeller/bmw-i/i5/bmw-i5-oeversikt.html
+
+  - make: BMW
+    model: i5
+    submodel: eDrive40 Touring
+    year: 2025
+    price_sek: 716900
+
+    range_km_wltp: 560
+    battery_kwh: 81.2
+
+    dc_charge_max_kw: 206
+    charge_10_80_min: 26
+
+    power_hp: 340
+    acceleration_0_100: 6.1
+    top_speed_kmh: 193
+    drive: RWD
+
+    cargo_liters: 570
+    seats: 5
+    tow_capacity_kg: 1500
+
+    notes: "Wagon body. Max cargo 1700L."
+    references:
+      - https://ev-database.org/car/2114/BMW-i5-eDrive40-Touring
+      - https://www.bmw.se/sv/alla-modeller/bmw-i/i5/bmw-i5-touring.html
+
+  # ============================================================================
+  # BMW iX
+  # ============================================================================
+  - make: BMW
+    model: iX
+    submodel: xDrive45
+    year: 2025
+    price_sek: 879000
+
+    range_km_wltp: 602
+    battery_kwh: 94.8
+
+    dc_charge_max_kw: 175
+    charge_10_80_min: 36
+
+    power_hp: 408
+    acceleration_0_100: 5.1
+    top_speed_kmh: 200
+    drive: AWD
+
+    cargo_liters: 500
+    seats: 5
+    tow_capacity_kg: 2500
+
+    notes: "2025 refresh. Max cargo 1750L."
+    references:
+      - https://ev-database.org/car/3109/BMW-iX-xDrive45
+      - https://www.bmw.se/sv/alla-modeller/i-series/ix/bmw-ix.html
+
+  - make: BMW
+    model: iX
+    submodel: xDrive60
+    year: 2025
+    price_sek: 909000
+
+    range_km_wltp: 701
+    battery_kwh: 109.1
+
+    dc_charge_max_kw: 195
+    charge_10_80_min: 32
+
+    power_hp: 544
+    acceleration_0_100: 4.6
+    top_speed_kmh: 200
+    drive: AWD
+
+    cargo_liters: 500
+    seats: 5
+    tow_capacity_kg: 2500
+
+    notes: "2025 refresh. Best range iX. Max cargo 1750L."
+    references:
+      - https://ev-database.org/car/3110/BMW-iX-xDrive60
+      - https://www.bmw.se/sv/alla-modeller/i-series/ix/bmw-ix.html
