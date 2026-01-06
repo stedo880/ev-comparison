@@ -644,7 +644,7 @@
 
             function showTooltip(event, d) {
                 tooltip.classed('visible', true);
-                const dealerLink = d.dealer_url ? `<a class="tooltip-link" href="${d.dealer_url}" target="_blank" title="View on dealer site">🔗</a>` : '';
+                const dealerLink = d.dealer_url ? `<a class="tooltip-link" href="${d.dealer_url}" target="_blank" title="View on dealer site">↗</a>` : '';
                 tooltip.html(`
                     <div class="tooltip-title" style="color: ${makeColors(d.make)}">${d.name}${dealerLink}</div>
                     <div class="tooltip-content">
@@ -688,7 +688,7 @@
 
                 // Show tooltip
                 tooltip.classed('visible', true);
-                const dealerLink = d.dealer_url ? `<a class="tooltip-link" href="${d.dealer_url}" target="_blank" title="View on dealer site">🔗</a>` : '';
+                const dealerLink = d.dealer_url ? `<a class="tooltip-link" href="${d.dealer_url}" target="_blank" title="View on dealer site">↗</a>` : '';
                 tooltip.html(`
                     <div class="tooltip-title" style="color: ${makeColors(d.make)}">${d.name}${dealerLink}</div>
                     <div class="tooltip-content">

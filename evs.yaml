@@ -213,7 +213,7 @@ evs:
   - https://ev-database.org/car/1839/Volkswagen-ID7-Pro
   - https://www.volkswagen-newsroom.com/en/press-releases/new-id7-models-extremely-dynamic-gtx-and-a-wltp-range-of-up-to-709-kilometres-with-the-id7-pro-s-18434
   - https://www.car.info/en-se/volkswagen/id7/id7-2025-120127075
-  dealer_url: https://www.volkswagen.se/sv/modeller/id7.html
+  dealer_url: https://www.volkswagen.se/sv/elbilar/vara-elbilar/id7.html
 - make: Volkswagen
   model: ID.7
   submodel: Pro S
@@ -234,7 +234,7 @@ evs:
   references:
   - https://www.volkswagen-newsroom.com/en/press-releases/id7-pro-s-covers-941-km-on-one-battery-charge-during-efficiency-test-18888
   - https://ev-database.org/car/3260/Volkswagen-ID7-Tourer-Pro-S
-  dealer_url: https://www.volkswagen.se/sv/modeller/id7.html
+  dealer_url: https://www.volkswagen.se/sv/elbilar/vara-elbilar/id7.html
 - make: Volkswagen
   model: ID.7
   submodel: GTX
@@ -254,7 +254,7 @@ evs:
   notes: Performance AWD variant. Higher tow capacity than Pro/Pro S.
   references:
   - https://www.volkswagen-newsroom.com/en/press-releases/new-id7-models-extremely-dynamic-gtx-and-a-wltp-range-of-up-to-709-kilometres-with-the-id7-pro-s-18434
-  dealer_url: https://www.volkswagen.se/sv/modeller/id7.html
+  dealer_url: https://www.volkswagen.se/sv/elbilar/vara-elbilar/id7.html
 - make: Volkswagen
   model: ID.7 Tourer
   submodel: Pro S
@@ -275,7 +275,7 @@ evs:
   references:
   - https://www.volkswagen-newsroom.com/en/at-a-glance-id7-tourer-19982
   - https://ev-database.org/car/3260/Volkswagen-ID7-Tourer-Pro-S
-  dealer_url: https://www.volkswagen.se/sv/modeller/id7-tourer.html
+  dealer_url: https://www.volkswagen.se/sv/elbilar/vara-elbilar/id7-tourer.html
 - make: Kia
   model: EV5
   submodel: Long Range
@@ -297,7 +297,7 @@ evs:
   - https://ev-database.org/car/3300/Kia-EV5-814-kWh
   - https://www.kia.com/eu/new-cars/ev5/
   - https://www.whatcar.com/kia/ev5/estate/review/n28271
-  dealer_url: https://www.kia.com/se/modeller/ev5/
+  dealer_url: https://www.kia.com/se/nya-bilar/ev5/
 - make: Kia
   model: EV5
   submodel: GT-Line
@@ -318,7 +318,7 @@ evs:
   references:
   - https://www.carwow.co.uk/kia/ev5
   - https://electrek.co/2025/07/08/kia-reveals-upgraded-ev5-with-up-to-329-miles-range/
-  dealer_url: https://www.kia.com/se/modeller/ev5/
+  dealer_url: https://www.kia.com/se/nya-bilar/ev5/
 - make: Kia
   model: EV6
   submodel: Long Range RWD
@@ -340,7 +340,7 @@ evs:
   - https://ev-database.org/car/3028/Kia-EV6-Long-Range-RWD
   - https://www.kia.com/se/nya-bilar/ev6/upptack/
   - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
-  dealer_url: https://www.kia.com/se/modeller/ev6/
+  dealer_url: https://www.kia.com/se/nya-bilar/ev6/
 - make: Kia
   model: EV6
   submodel: Long Range AWD
@@ -362,7 +362,7 @@ evs:
   - https://ev-database.org/car/3029/Kia-EV6-Long-Range-AWD
   - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
   - https://www.caranddriver.com/kia/ev6
-  dealer_url: https://www.kia.com/se/modeller/ev6/
+  dealer_url: https://www.kia.com/se/nya-bilar/ev6/
 - make: Kia
   model: EV6
   submodel: GT-Line AWD
@@ -382,7 +382,7 @@ evs:
   notes: Sport styling package. Available with 20-inch wheels.
   references:
   - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
-  dealer_url: https://www.kia.com/se/modeller/ev6/
+  dealer_url: https://www.kia.com/se/nya-bilar/ev6/
 - make: Kia
   model: EV6
   submodel: GT
@@ -403,7 +403,7 @@ evs:
   references:
   - https://ev-database.org/car/3079/Kia-EV6-GT
   - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
-  dealer_url: https://www.kia.com/se/modeller/ev6/
+  dealer_url: https://www.kia.com/se/nya-bilar/ev6/
 - make: Skoda
   model: Enyaq
   submodel: '60'
@@ -509,7 +509,7 @@ evs:
   references:
   - https://www.skoda.se/modeller/enyaq/enyaq-coupe-solid-edition
   - https://www.electrifying.com/reviews/skoda-reviews/new-enyaq/review
-  dealer_url: https://www.skoda.se/modeller/enyaq-coupe
+  dealer_url: https://www.skoda.se/modeller/enyaq/nya-enyaq-coupe
 - make: Toyota
   model: bZ4X
   submodel: FWD
@@ -659,7 +659,7 @@ evs:
   - https://ev-database.org/car/3290/BMW-iX3-50-xDrive
   - https://www.holmgrensbil.se/kampanjer/bmw/ix3
   - https://www.automotorsport.se/nyheter/bmw-ix3-2026-premiar-sverige/
-  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/ix3/bmw-ix3-overview.html
+  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/ix3.html
 - make: Volvo
   model: EX90
   submodel: Twin Motor
@@ -681,7 +681,7 @@ evs:
   - https://ev-database.org/car/3324/Volvo-EX90-Twin-Motor
   - https://bilweb.se/sok/volvo/ex90
   - https://www.caranddriver.com/volvo/ex90
-  dealer_url: https://www.volvocars.com/se/bilar/ex90/
+  dealer_url: https://www.volvocars.com/se/cars/ex90-electric/
 - make: Volvo
   model: EX90
   submodel: Twin Motor Performance
@@ -703,7 +703,7 @@ evs:
   - https://ev-database.org/car/3324/Volvo-EX90-Twin-Motor
   - https://www.volvocars.com/intl/media/press-releases/AF327F3DF42E9592/
   - https://www.electrive.com/2025/09/23/model-year-2026-volvo-ex90-gets-800-volt-technology/
-  dealer_url: https://www.volvocars.com/se/bilar/ex90/
+  dealer_url: https://www.volvocars.com/se/cars/ex90-electric/
 - make: Volvo
   model: EX60
   submodel: null
@@ -725,7 +725,7 @@ evs:
   - https://www.media.volvocars.com/global/en-gb/media/pressreleases/352832/save-the-date-on-21-january-we-will-reveal-the-new-volvo-ex60
   - https://topelectricsuv.com/news/volvo/next-gen-volvo-xc60-ev-phev/
   - https://www.caranddriver.com/volvo/ex60
-  dealer_url: https://www.volvocars.com/se/bilar/ex60/
+  dealer_url: https://www.volvocars.com/se/cars/ex60-electric/
 - make: Hyundai
   model: Ioniq 9
   submodel: Long Range RWD
@@ -747,7 +747,7 @@ evs:
   - https://ev-database.org/car/3067/Hyundai-IONIQ-9-Long-Range-RWD
   - https://www.holmgrensbil.se/kampanjer/hyundai/ioniq-9
   - https://www.hyundai.com/eu/en/models/ioniq9.html
-  dealer_url: https://www.hyundai.com/se/sv/modeller/ioniq9.html
+  dealer_url: https://www.hyundai.com/se/sv/bilar/ioniq-9.html
 - make: Hyundai
   model: Ioniq 9
   submodel: Long Range AWD
@@ -768,7 +768,7 @@ evs:
   references:
   - https://ev-database.org/car/3068/Hyundai-IONIQ-9-Long-Range-AWD
   - https://www.caranddriver.com/hyundai/ioniq-9
-  dealer_url: https://www.hyundai.com/se/sv/modeller/ioniq9.html
+  dealer_url: https://www.hyundai.com/se/sv/bilar/ioniq-9.html
 - make: Hyundai
   model: Ioniq 9
   submodel: Performance AWD
@@ -789,7 +789,7 @@ evs:
   references:
   - https://www.holmgrensbil.se/kampanjer/hyundai/ioniq-9
   - https://www.caranddriver.com/hyundai/ioniq-9
-  dealer_url: https://www.hyundai.com/se/sv/modeller/ioniq9.html
+  dealer_url: https://www.hyundai.com/se/sv/bilar/ioniq-9.html
 - make: Peugeot
   model: E-5008
   submodel: Electric 210
@@ -875,7 +875,7 @@ evs:
   - https://ev-database.org/car/2069/Renault-Scenic-E-Tech-EV87-220hp
   - https://www.car.info/en-se/renault/scenic-e-tech/scenic-e-tech-60-kwh-s-2025-121172424
   - https://en.wikipedia.org/wiki/Renault_Scenic_E-Tech
-  dealer_url: https://www.renault.se/bilar/scenic-e-tech-electric.html
+  dealer_url: https://www.renault.se/personbilar/elbilar/scenic-e-tech-electric
 - make: Renault
   model: Scenic E-Tech
   submodel: EV87 Techno Long Range
@@ -897,7 +897,7 @@ evs:
   - https://ev-database.org/car/2069/Renault-Scenic-E-Tech-EV87-220hp
   - https://www.car.info/en-se/renault/scenic-e-tech
   - https://www.whatcar.com/renault/scenic-e-tech/estate/review/n26635
-  dealer_url: https://www.renault.se/bilar/scenic-e-tech-electric.html
+  dealer_url: https://www.renault.se/personbilar/elbilar/scenic-e-tech-electric
 - make: Renault
   model: Scenic E-Tech
   submodel: EV87 Esprit Alpine
@@ -919,7 +919,7 @@ evs:
   - https://ev-database.org/car/2069/Renault-Scenic-E-Tech-EV87-220hp
   - https://media.renault.com/?p=524624
   - https://www.renault.co.uk/electric-vehicles/scenic/specifications.html
-  dealer_url: https://www.renault.se/bilar/scenic-e-tech-electric.html
+  dealer_url: https://www.renault.se/personbilar/elbilar/scenic-e-tech-electric
 - make: Porsche
   model: Macan Electric
   submodel: null
@@ -1024,7 +1024,7 @@ evs:
   references:
   - https://ev-database.org/car/1909/Volvo-EX30-Single-Motor
   - https://www.caranddriver.com/volvo/ex30
-  dealer_url: https://www.volvocars.com/se/bilar/ex30/
+  dealer_url: https://www.volvocars.com/se/cars/ex30-electric/
 - make: Volvo
   model: EX30
   submodel: Single Motor Extended Range
@@ -1045,7 +1045,7 @@ evs:
   references:
   - https://ev-database.org/car/1910/Volvo-EX30-Single-Motor-ER
   - https://www.caranddriver.com/volvo/ex30
-  dealer_url: https://www.volvocars.com/se/bilar/ex30/
+  dealer_url: https://www.volvocars.com/se/cars/ex30-electric/
 - make: Volvo
   model: EX30
   submodel: Twin Motor Performance
@@ -1066,7 +1066,7 @@ evs:
   references:
   - https://ev-database.org/uk/car/1911/Volvo-EX30-Twin-Motor-Performance
   - https://www.caranddriver.com/volvo/ex30
-  dealer_url: https://www.volvocars.com/se/bilar/ex30/
+  dealer_url: https://www.volvocars.com/se/cars/ex30-electric/
 - make: Kia
   model: EV9
   submodel: Long Range RWD
@@ -1087,7 +1087,7 @@ evs:
   references:
   - https://ev-database.org/car/1834/Kia-EV9-998-kWh-RWD
   - https://www.caranddriver.com/kia/ev9-2025
-  dealer_url: https://www.kia.com/se/modeller/ev9/
+  dealer_url: https://www.kia.com/se/nya-bilar/ev9/
 - make: Kia
   model: EV9
   submodel: Long Range AWD
@@ -1108,7 +1108,7 @@ evs:
   references:
   - https://ev-database.org/car/1835/Kia-EV9-998-kWh-AWD
   - https://www.caranddriver.com/kia/ev9-2025
-  dealer_url: https://www.kia.com/se/modeller/ev9/
+  dealer_url: https://www.kia.com/se/nya-bilar/ev9/
 - make: Hyundai
   model: Ioniq 5
   submodel: Long Range RWD
@@ -1129,7 +1129,7 @@ evs:
   references:
   - https://ev-database.org/car/2236/Hyundai-IONIQ-5-84-kWh-RWD
   - https://www.caranddriver.com/hyundai/ioniq-5
-  dealer_url: https://www.hyundai.com/se/sv/modeller/ioniq5.html
+  dealer_url: https://www.hyundai.com/se/sv/bilar/nya-ioniq-5.html
 - make: Hyundai
   model: Ioniq 5
   submodel: Long Range AWD
@@ -1150,7 +1150,7 @@ evs:
   references:
   - https://ev-database.org/car/2237/Hyundai-IONIQ-5-84-kWh-AWD
   - https://www.caranddriver.com/hyundai/ioniq-5
-  dealer_url: https://www.hyundai.com/se/sv/modeller/ioniq5.html
+  dealer_url: https://www.hyundai.com/se/sv/bilar/nya-ioniq-5.html
 - make: Polestar
   model: '2'
   submodel: Long Range Single Motor
@@ -1192,7 +1192,7 @@ evs:
   references:
   - https://ev-database.org/car/2028/Volkswagen-ID4-Pro
   - https://www.caranddriver.com/volkswagen/id4
-  dealer_url: https://www.volkswagen.se/sv/modeller/id4.html
+  dealer_url: https://www.volkswagen.se/sv/elbilar/vara-elbilar/id4.html
 - make: Volkswagen
   model: ID.4
   submodel: Pro 4MOTION
@@ -1213,7 +1213,7 @@ evs:
   references:
   - https://ev-database.org/car/2029/Volkswagen-ID4-Pro-4MOTION
   - https://www.caranddriver.com/volkswagen/id4
-  dealer_url: https://www.volkswagen.se/sv/modeller/id4.html
+  dealer_url: https://www.volkswagen.se/sv/elbilar/vara-elbilar/id4.html
 - make: Audi
   model: A6 Sportback e-tron
   submodel: Proline 83kWh
@@ -1233,7 +1233,7 @@ evs:
   notes: 800V architecture.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-sportback-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-sportback-e-tron/
 - make: Audi
   model: A6 Sportback e-tron
   submodel: Proline 100kWh
@@ -1253,7 +1253,7 @@ evs:
   notes: 800V architecture. Performance variant.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-sportback-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-sportback-e-tron/
 - make: Audi
   model: A6 Sportback e-tron
   submodel: Proline quattro
@@ -1273,7 +1273,7 @@ evs:
   notes: 800V architecture. 315 kW.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-sportback-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-sportback-e-tron/
 - make: Audi
   model: A6 Sportback e-tron
   submodel: S line 83kWh
@@ -1293,7 +1293,7 @@ evs:
   notes: 800V architecture. S line exterior.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-sportback-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-sportback-e-tron/
 - make: Audi
   model: A6 Sportback e-tron
   submodel: S line 100kWh
@@ -1313,7 +1313,7 @@ evs:
   notes: 800V architecture. S line exterior. Performance variant.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-sportback-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-sportback-e-tron/
 - make: Audi
   model: A6 Sportback e-tron
   submodel: S line quattro
@@ -1333,7 +1333,7 @@ evs:
   notes: 800V architecture. S line exterior. 315 kW.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-sportback-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-sportback-e-tron/
 - make: Audi
   model: A6 Avant e-tron
   submodel: Proline 83kWh
@@ -1353,7 +1353,7 @@ evs:
   notes: 800V architecture. Wagon. Max cargo 1422L.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-avant-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-avant-e-tron/
 - make: Audi
   model: A6 Avant e-tron
   submodel: Proline 100kWh
@@ -1373,7 +1373,7 @@ evs:
   notes: 800V architecture. Wagon. Performance variant.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-avant-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-avant-e-tron/
 - make: Audi
   model: A6 Avant e-tron
   submodel: Proline quattro
@@ -1393,7 +1393,7 @@ evs:
   notes: 800V architecture. Wagon. 315 kW.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-avant-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-avant-e-tron/
 - make: Audi
   model: A6 Avant e-tron
   submodel: S line 83kWh
@@ -1413,7 +1413,7 @@ evs:
   notes: 800V architecture. Wagon. S line exterior.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-avant-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-avant-e-tron/
 - make: Audi
   model: A6 Avant e-tron
   submodel: S line 100kWh
@@ -1433,7 +1433,7 @@ evs:
   notes: 800V architecture. Wagon. Performance variant.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-avant-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-avant-e-tron/
 - make: Audi
   model: A6 Avant e-tron
   submodel: S line quattro
@@ -1453,7 +1453,7 @@ evs:
   notes: 800V architecture. Wagon. S line exterior. 315 kW.
   references:
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/a6-avant-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/a6-avant-e-tron/
 - make: Audi
   model: S6 Sportback e-tron
   submodel: null
@@ -1474,7 +1474,7 @@ evs:
   references:
   - https://ev-database.org/uk/car/2271/Audi-S6-Sportback-e-tron
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/s6-sportback-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/s6-sportback-e-tron/
 - make: Audi
   model: S6 Avant e-tron
   submodel: null
@@ -1495,7 +1495,7 @@ evs:
   references:
   - https://ev-database.org/car/2273/Audi-S6-Avant-e-tron
   - https://www.audi.se/sv/models/a6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/s6-avant-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/a6-e-tron/s6-avant-e-tron/
 - make: Audi
   model: Q4 e-tron
   submodel: '45'
@@ -1516,7 +1516,7 @@ evs:
   references:
   - https://ev-database.org/car/2013/Audi-Q4-e-tron-45
   - https://www.audi.se/sv/models/q4-e-tron/q4-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/q4-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/q4-e-tron/
 - make: Audi
   model: Q6 e-tron
   submodel: quattro
@@ -1537,7 +1537,7 @@ evs:
   references:
   - https://ev-database.org/car/2146/Audi-Q6-SUV-e-tron-quattro
   - https://www.audi.se/sv/models/q6-e-tron/
-  dealer_url: https://www.audi.se/se/web/se/modeller/q6-e-tron.html
+  dealer_url: https://www.audi.se/sv/models/q6-e-tron/
 - make: Mercedes-Benz
   model: EQE
   submodel: 350+
@@ -1724,7 +1724,7 @@ evs:
   references:
   - https://ev-database.org/car/2199/BMW-i4-eDrive40
   - https://www.bmw.se/sv/alla-modeller/i-series/i4/bmw-i4-gran-coupe.html
-  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/i4/bmw-i4-overview.html
+  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/i4.html
 - make: BMW
   model: i4
   submodel: xDrive40
@@ -1745,7 +1745,7 @@ evs:
   references:
   - https://ev-database.org/car/2200/BMW-i4-xDrive40
   - https://www.bmw.se/sv/alla-modeller/i-series/i4/bmw-i4-gran-coupe.html
-  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/i4/bmw-i4-overview.html
+  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/i4.html
 - make: BMW
   model: i5
   submodel: eDrive40 Sedan
@@ -1766,7 +1766,7 @@ evs:
   references:
   - https://ev-database.org/car/1906/BMW-i5-eDrive40-Sedan
   - https://www.bmw.se/sv/alla-modeller/bmw-i/i5/bmw-i5-oeversikt.html
-  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/i5/bmw-i5-overview.html
+  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/i5.html
 - make: BMW
   model: i5
   submodel: eDrive40 Touring
@@ -1787,7 +1787,7 @@ evs:
   references:
   - https://ev-database.org/car/2114/BMW-i5-eDrive40-Touring
   - https://www.bmw.se/sv/alla-modeller/bmw-i/i5/bmw-i5-touring.html
-  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/i5/bmw-i5-overview.html
+  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/i5.html
 - make: BMW
   model: iX
   submodel: xDrive45
@@ -1808,7 +1808,7 @@ evs:
   references:
   - https://ev-database.org/car/3109/BMW-iX-xDrive45
   - https://www.bmw.se/sv/alla-modeller/i-series/ix/bmw-ix.html
-  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/ix/bmw-ix-overview.html
+  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/ix.html
 - make: BMW
   model: iX
   submodel: xDrive60
@@ -1829,4 +1829,4 @@ evs:
   references:
   - https://ev-database.org/car/3110/BMW-iX-xDrive60
   - https://www.bmw.se/sv/alla-modeller/i-series/ix/bmw-ix.html
-  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/ix/bmw-ix-overview.html
+  dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/ix.html
