@@ -2100,6 +2100,119 @@ evs:
       - https://ev-database.org/car/2087/Mercedes-Benz-EQS-SUV-450plus
 
   # ============================================================================
+  # MERCEDES-BENZ EQA
+  # ============================================================================
+  - make: Mercedes-Benz
+    model: EQA
+    submodel: "250+"
+    year: 2025
+    price_sek: 529000
+
+    range_km_wltp: 560
+    battery_kwh: 70.5
+
+    dc_charge_max_kw: 102
+    charge_10_80_min: 35
+
+    power_hp: 190
+    acceleration_0_100: 8.6
+    top_speed_kmh: 160
+    drive: FWD
+
+    cargo_liters: 340
+    seats: 5
+    tow_capacity_kg: 1500
+
+    notes: "Campaign price. Regular 633,700 SEK. Compact SUV."
+    references:
+      - https://ev-database.org/car/1985/Mercedes-Benz-EQA-250plus
+      - https://www.bilia.se/bilar/mercedes-benz/bilmodeller/mercedes-eq/eqa/
+
+  # ============================================================================
+  # MERCEDES-BENZ EQB
+  # ============================================================================
+  - make: Mercedes-Benz
+    model: EQB
+    submodel: "250+"
+    year: 2025
+    price_sek: 559000
+
+    range_km_wltp: 536
+    battery_kwh: 70.5
+
+    dc_charge_max_kw: 102
+    charge_10_80_min: 35
+
+    power_hp: 190
+    acceleration_0_100: 8.9
+    top_speed_kmh: 160
+    drive: FWD
+
+    cargo_liters: 495
+    seats: 7
+    tow_capacity_kg: 1400
+
+    notes: "Campaign price. Regular 657,700 SEK. 7-seater compact SUV."
+    references:
+      - https://ev-database.org/car/1988/Mercedes-Benz-EQB-250plus
+      - https://www.bilia.se/bilar/mercedes-benz/bilmodeller/mercedes-eq/eqb/
+
+  # ============================================================================
+  # MERCEDES-BENZ GLB (2026)
+  # ============================================================================
+  - make: Mercedes-Benz
+    model: GLB
+    submodel: "250+"
+    year: 2026
+    price_sek: ~650000
+
+    range_km_wltp: 631
+    battery_kwh: 85
+
+    dc_charge_max_kw: 353
+    charge_10_80_min: 16
+
+    power_hp: 272
+    acceleration_0_100: 7.4
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 540
+    seats: 7
+    tow_capacity_kg: 1500
+
+    notes: "800V architecture. EQB successor. H1 2026 launch."
+    references:
+      - https://ev-database.org/car/3406/Mercedes-Benz-GLB-250plus
+      - https://www.mercedes-benz.com/en/vehicles/glb/
+
+  - make: Mercedes-Benz
+    model: GLB
+    submodel: 350 4MATIC
+    year: 2026
+    price_sek: ~700000
+
+    range_km_wltp: 614
+    battery_kwh: 85
+
+    dc_charge_max_kw: 353
+    charge_10_80_min: 16
+
+    power_hp: 354
+    acceleration_0_100: 5.5
+    top_speed_kmh: 210
+    drive: AWD
+
+    cargo_liters: 540
+    seats: 7
+    tow_capacity_kg: 2000
+
+    notes: "800V architecture. AWD performance variant."
+    references:
+      - https://ev-database.org/car/3407/Mercedes-Benz-GLB-350-4MATIC
+      - https://www.mercedes-benz.com/en/vehicles/glb/
+
+  # ============================================================================
   # BMW i4
   # ============================================================================
   - make: BMW
