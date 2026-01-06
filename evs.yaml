@@ -1,0 +1,1992 @@
+# EV Comparison Dataset - 1H 2026 New Car Considerations
+# Generated: 2026-01-05
+# Verified against ev-database.org: 2026-01-05
+# Note: Prices in SEK are approximate and subject to change. Verify with dealers.
+
+evs:
+  # ============================================================================
+  # POLESTAR 3
+  # ============================================================================
+  - make: Polestar
+    model: "3"
+    submodel: Long Range Single Motor
+    year: 2026
+    price_sek: ~950000  # Estimated based on EU pricing
+
+    range_km_wltp: 706
+    battery_kwh: 107
+
+    dc_charge_max_kw: 250
+    charge_10_80_min: 32
+
+    power_hp: 299
+    acceleration_0_100: 7.8
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 484
+    seats: 5
+    tow_capacity_kg: 1500
+
+    notes: "Frunk: 32L. 400V architecture."
+    references:
+      - https://ev-database.org/car/2229/Polestar-3-Long-Range-Single-motor
+      - https://www.caranddriver.com/polestar/polestar-3
+      - https://www.polestar.com/se/offers/business-edition-polestar-3-2025/
+
+  - make: Polestar
+    model: "3"
+    submodel: Long Range Dual Motor
+    year: 2026
+    price_sek: 1066500
+
+    range_km_wltp: 636
+    battery_kwh: 107
+
+    dc_charge_max_kw: 250
+    charge_10_80_min: 32
+
+    power_hp: 489
+    acceleration_0_100: 5.0
+    top_speed_kmh: 210
+    drive: AWD
+
+    cargo_liters: 484
+    seats: 5
+    tow_capacity_kg: 2200
+
+    notes: "400V architecture. Business Edition from 924,000 SEK."
+    references:
+      - https://ev-database.org/car/1758/Polestar-3-Long-Range-Dual-motor
+      - https://www.polestar.com/se/offers/business-edition-polestar-3-2025/
+      - https://www.caranddriver.com/polestar/polestar-3
+
+  - make: Polestar
+    model: "3"
+    submodel: Long Range Dual Motor Performance
+    year: 2026
+    price_sek: 1136500
+
+    range_km_wltp: 567
+    battery_kwh: 107
+
+    dc_charge_max_kw: 250
+    charge_10_80_min: 32
+
+    power_hp: 517
+    acceleration_0_100: 4.7
+    top_speed_kmh: 210
+    drive: AWD
+
+    cargo_liters: 484
+    seats: 5
+    tow_capacity_kg: 2200
+
+    notes: "Performance Pack with air suspension. 400V architecture."
+    references:
+      - https://ev-database.org/car/1759/Polestar-3-Long-Range-Performance
+      - https://www.polestar.com/se/offers/business-edition-polestar-3-2025/
+
+  # ============================================================================
+  # POLESTAR 4
+  # ============================================================================
+  - make: Polestar
+    model: "4"
+    submodel: Long Range Single Motor
+    year: 2025
+    price_sek: 798500
+
+    range_km_wltp: 620
+    battery_kwh: 94
+
+    dc_charge_max_kw: 200
+    charge_10_80_min: 31
+
+    power_hp: 272
+    acceleration_0_100: 7.4
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 526
+    seats: 5
+    tow_capacity_kg: 1500
+
+    notes: "No rear window - uses roof-mounted camera. Business Edition from 692,000 SEK."
+    references:
+      - https://ev-database.org/car/1841/Polestar-4-Long-Range-Single-Motor
+      - https://www.polestar.com/se/offers/business-edition-polestar-4-2025/
+      - https://www.caranddriver.com/polestar/polestar-4
+
+  - make: Polestar
+    model: "4"
+    submodel: Long Range Dual Motor
+    year: 2025
+    price_sek: 868500
+
+    range_km_wltp: 590
+    battery_kwh: 94
+
+    dc_charge_max_kw: 200
+    charge_10_80_min: 31
+
+    power_hp: 544
+    acceleration_0_100: 3.8
+    top_speed_kmh: 200
+    drive: AWD
+
+    cargo_liters: 526
+    seats: 5
+    tow_capacity_kg: 2000
+
+    notes: "Quickest Polestar production car. 400V architecture."
+    references:
+      - https://ev-database.org/car/1842/Polestar-4-Long-Range-Dual-Motor
+      - https://www.caranddriver.com/polestar/polestar-4
+
+  # ============================================================================
+  # TESLA MODEL Y
+  # ============================================================================
+  - make: Tesla
+    model: Model Y
+    submodel: RWD
+    year: 2025
+    price_sek: ~500000  # ~€46,000
+
+    range_km_wltp: 500
+    battery_kwh: 64
+
+    dc_charge_max_kw: 250
+    charge_10_80_min: 27
+
+    power_hp: 299
+    acceleration_0_100: 5.9
+    top_speed_kmh: 201
+    drive: RWD
+
+    cargo_liters: 854
+    seats: 5
+    tow_capacity_kg: 1588
+
+    notes: "2025 Juniper refresh. Entry model with LFP battery. 8-inch rear screen."
+    references:
+      - https://ev-database.org/car/3103/Tesla-Model-Y-RWD
+      - https://www.tesla.com/modely
+
+  - make: Tesla
+    model: Model Y
+    submodel: Long Range RWD
+    year: 2025
+    price_sek: ~540000  # ~€51,000
+
+    range_km_wltp: 622
+    battery_kwh: 78.1
+
+    dc_charge_max_kw: 250
+    charge_10_80_min: 27
+
+    power_hp: 299
+    acceleration_0_100: 5.6
+    top_speed_kmh: 201
+    drive: RWD
+
+    cargo_liters: 854
+    seats: 5
+    tow_capacity_kg: 1588
+
+    notes: "2025 Juniper. Longest range Model Y. Replaced by Premium RWD."
+    references:
+      - https://ev-database.org/car/3120/Tesla-Model-Y-Long-Range-RWD
+      - https://www.tesla.com/modely
+
+  - make: Tesla
+    model: Model Y
+    submodel: Premium AWD
+    year: 2025
+    price_sek: ~580000  # ~€54,000
+
+    range_km_wltp: 600
+    battery_kwh: 82
+
+    dc_charge_max_kw: 250
+    charge_10_80_min: 27
+
+    power_hp: 514
+    acceleration_0_100: 4.8
+    top_speed_kmh: 201
+    drive: AWD
+
+    cargo_liters: 854
+    seats: 5
+    tow_capacity_kg: 1588
+
+    notes: "2025 Juniper. Replaces Long Range AWD. Dual motor."
+    references:
+      - https://ev-database.org/car/3333/Tesla-Model-Y-Premium-AWD
+      - https://www.tesla.com/modely
+
+  - make: Tesla
+    model: Model Y
+    submodel: Performance
+    year: 2026
+    price_sek: ~680000  # ~€63,000
+
+    range_km_wltp: 580
+    battery_kwh: 82
+
+    dc_charge_max_kw: 250
+    charge_10_80_min: 27
+
+    power_hp: 627
+    acceleration_0_100: 3.8
+    top_speed_kmh: 250
+    drive: AWD
+
+    cargo_liters: 854
+    seats: 5
+    tow_capacity_kg: 1588
+
+    notes: "2026 Performance with 21-inch Arachnid wheels, carbon fiber spoiler."
+    references:
+      - https://ev-database.org/car/3269/Tesla-Model-Y-Performance
+      - https://www.caranddriver.com/tesla/model-y-2025
+      - https://hamphi.com/en/blogs/news/nya-tesla-model-y-performance
+
+  # ============================================================================
+  # VOLKSWAGEN ID.7
+  # ============================================================================
+  - make: Volkswagen
+    model: ID.7
+    submodel: Pro
+    year: 2025
+    price_sek: 640000
+
+    range_km_wltp: 621
+    battery_kwh: 77
+
+    dc_charge_max_kw: 190
+    charge_10_80_min: 27
+
+    power_hp: 286
+    acceleration_0_100: 6.5
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 532
+    seats: 5
+    tow_capacity_kg: 1000
+
+    notes: "Large sedan/liftback. ChatGPT voice assistant integration."
+    references:
+      - https://ev-database.org/car/1839/Volkswagen-ID7-Pro
+      - https://www.volkswagen-newsroom.com/en/press-releases/new-id7-models-extremely-dynamic-gtx-and-a-wltp-range-of-up-to-709-kilometres-with-the-id7-pro-s-18434
+      - https://www.car.info/en-se/volkswagen/id7/id7-2025-120127075
+
+  - make: Volkswagen
+    model: ID.7
+    submodel: Pro S
+    year: 2025
+    price_sek: 720000
+
+    range_km_wltp: 709
+    battery_kwh: 86
+
+    dc_charge_max_kw: 200
+    charge_10_80_min: 26
+
+    power_hp: 286
+    acceleration_0_100: 6.6
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 542
+    seats: 5
+    tow_capacity_kg: 1200
+
+    notes: "Longest range ID.7. Achieved 941 km in efficiency test."
+    references:
+      - https://www.volkswagen-newsroom.com/en/press-releases/id7-pro-s-covers-941-km-on-one-battery-charge-during-efficiency-test-18888
+      - https://ev-database.org/car/3260/Volkswagen-ID7-Tourer-Pro-S
+
+  - make: Volkswagen
+    model: ID.7
+    submodel: GTX
+    year: 2025
+    price_sek: ~800000
+
+    range_km_wltp: 595
+    battery_kwh: 86
+
+    dc_charge_max_kw: 200
+    charge_10_80_min: 26
+
+    power_hp: 340
+    acceleration_0_100: 5.5
+    top_speed_kmh: 180
+    drive: AWD
+
+    cargo_liters: 542
+    seats: 5
+    tow_capacity_kg: 1400
+
+    notes: "Performance AWD variant. Higher tow capacity than Pro/Pro S."
+    references:
+      - https://www.volkswagen-newsroom.com/en/press-releases/new-id7-models-extremely-dynamic-gtx-and-a-wltp-range-of-up-to-709-kilometres-with-the-id7-pro-s-18434
+
+  - make: Volkswagen
+    model: ID.7 Tourer
+    submodel: Pro S
+    year: 2025
+    price_sek: ~750000
+
+    range_km_wltp: 690
+    battery_kwh: 86
+
+    dc_charge_max_kw: 200
+    charge_10_80_min: 26
+
+    power_hp: 286
+    acceleration_0_100: 6.6
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 605
+    seats: 5
+    tow_capacity_kg: 1000
+
+    notes: "Estate/wagon variant. Up to 1,714L with seats folded."
+    references:
+      - https://www.volkswagen-newsroom.com/en/at-a-glance-id7-tourer-19982
+      - https://ev-database.org/car/3260/Volkswagen-ID7-Tourer-Pro-S
+
+  # ============================================================================
+  # KIA EV5
+  # ============================================================================
+  - make: Kia
+    model: EV5
+    submodel: Long Range
+    year: 2026
+    price_sek: ~500000  # Estimated based on UK £39,345
+
+    range_km_wltp: 530
+    battery_kwh: 78
+
+    dc_charge_max_kw: 150
+    charge_10_80_min: 30
+
+    power_hp: 218
+    acceleration_0_100: 8.4
+    top_speed_kmh: 165
+    drive: FWD
+
+    cargo_liters: 566
+    seats: 5
+    tow_capacity_kg: 1200
+
+    notes: "European launch Q4 2025. NMC battery for Europe. V2L capable."
+    references:
+      - https://ev-database.org/car/3300/Kia-EV5-814-kWh
+      - https://www.kia.com/eu/new-cars/ev5/
+      - https://www.whatcar.com/kia/ev5/estate/review/n28271
+
+  - make: Kia
+    model: EV5
+    submodel: GT-Line
+    year: 2026
+    price_sek: ~560000
+
+    range_km_wltp: 505
+    battery_kwh: 78
+
+    dc_charge_max_kw: 150
+    charge_10_80_min: 30
+
+    power_hp: 218
+    acceleration_0_100: 8.4
+    top_speed_kmh: 165
+    drive: FWD
+
+    cargo_liters: 566
+    seats: 5
+    tow_capacity_kg: 1200
+
+    notes: "Higher spec with 19-inch wheels. 7-year/100,000-mile warranty."
+    references:
+      - https://www.carwow.co.uk/kia/ev5
+      - https://electrek.co/2025/07/08/kia-reveals-upgraded-ev5-with-up-to-329-miles-range/
+
+  # ============================================================================
+  # KIA EV6
+  # ============================================================================
+  - make: Kia
+    model: EV6
+    submodel: Long Range RWD
+    year: 2025
+    price_sek: 596400
+
+    range_km_wltp: 582
+    battery_kwh: 80
+
+    dc_charge_max_kw: 263
+    charge_10_80_min: 17
+
+    power_hp: 225
+    acceleration_0_100: 7.3
+    top_speed_kmh: 185
+    drive: RWD
+
+    cargo_liters: 490
+    seats: 5
+    tow_capacity_kg: 1600
+
+    notes: "800V architecture. Ultra-fast charging. Frunk: 52L (RWD)."
+    references:
+      - https://ev-database.org/car/3028/Kia-EV6-Long-Range-RWD
+      - https://www.kia.com/se/nya-bilar/ev6/upptack/
+      - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
+
+  - make: Kia
+    model: EV6
+    submodel: Long Range AWD
+    year: 2025
+    price_sek: 631400
+
+    range_km_wltp: 546
+    battery_kwh: 80
+
+    dc_charge_max_kw: 263
+    charge_10_80_min: 17
+
+    power_hp: 325
+    acceleration_0_100: 5.2
+    top_speed_kmh: 185
+    drive: AWD
+
+    cargo_liters: 490
+    seats: 5
+    tow_capacity_kg: 1800
+
+    notes: "Dual motor AWD. 10-year/100,000-mile EV warranty."
+    references:
+      - https://ev-database.org/car/3029/Kia-EV6-Long-Range-AWD
+      - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
+      - https://www.caranddriver.com/kia/ev6
+
+  - make: Kia
+    model: EV6
+    submodel: GT-Line AWD
+    year: 2025
+    price_sek: 711400
+
+    range_km_wltp: 528
+    battery_kwh: 80
+
+    dc_charge_max_kw: 263
+    charge_10_80_min: 17
+
+    power_hp: 325
+    acceleration_0_100: 5.2
+    top_speed_kmh: 185
+    drive: AWD
+
+    cargo_liters: 490
+    seats: 5
+    tow_capacity_kg: 1800
+
+    notes: "Sport styling package. Available with 20-inch wheels."
+    references:
+      - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
+
+  - make: Kia
+    model: EV6
+    submodel: GT
+    year: 2025
+    price_sek: 771400
+
+    range_km_wltp: 450
+    battery_kwh: 80
+
+    dc_charge_max_kw: 263
+    charge_10_80_min: 17
+
+    power_hp: 650
+    acceleration_0_100: 3.5
+    top_speed_kmh: 260
+    drive: AWD
+
+    cargo_liters: 480
+    seats: 5
+    tow_capacity_kg: 1800
+
+    notes: "Performance flagship. Virtual gear shift feature. Drift mode."
+    references:
+      - https://ev-database.org/car/3079/Kia-EV6-GT
+      - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
+
+  # ============================================================================
+  # SKODA ENYAQ
+  # ============================================================================
+  - make: Skoda
+    model: Enyaq
+    submodel: "60"
+    year: 2025
+    price_sek: 520000
+
+    range_km_wltp: 408
+    battery_kwh: 59
+
+    dc_charge_max_kw: 165
+    charge_10_80_min: 24
+
+    power_hp: 204
+    acceleration_0_100: 8.1
+    top_speed_kmh: 160
+    drive: RWD
+
+    cargo_liters: 585
+    seats: 5
+    tow_capacity_kg: 1000
+
+    notes: "Entry-level Enyaq. Good value proposition."
+    references:
+      - https://ev-database.org/car/3096/Skoda-Enyaq-60
+      - https://www.skoda.se/modeller/enyaq/enyaq-solid-edition
+
+  - make: Skoda
+    model: Enyaq
+    submodel: "85"
+    year: 2025
+    price_sek: 599900
+
+    range_km_wltp: 578
+    battery_kwh: 77
+
+    dc_charge_max_kw: 175
+    charge_10_80_min: 28
+
+    power_hp: 286
+    acceleration_0_100: 6.7
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 585
+    seats: 5
+    tow_capacity_kg: 1200
+
+    notes: "V2H bidirectional charging capable. Solid Edition available."
+    references:
+      - https://ev-database.org/car/3097/Skoda-Enyaq-85
+      - https://www.skoda.se/modeller/enyaq/enyaq-solid-edition
+
+  - make: Skoda
+    model: Enyaq
+    submodel: 85x
+    year: 2025
+    price_sek: 649600
+
+    range_km_wltp: 549
+    battery_kwh: 77
+
+    dc_charge_max_kw: 175
+    charge_10_80_min: 28
+
+    power_hp: 286
+    acceleration_0_100: 6.7
+    top_speed_kmh: 180
+    drive: AWD
+
+    cargo_liters: 585
+    seats: 5
+    tow_capacity_kg: 1200
+
+    notes: "AWD variant."
+    references:
+      - https://ev-database.org/car/3098/Skoda-Enyaq-85x
+      - https://www.car.info/en-se/skoda/enyaq-iv/enyaq-iv-2026-134406971
+      - https://www.electrifying.com/reviews/skoda-reviews/new-enyaq/review
+
+  - make: Skoda
+    model: Enyaq
+    submodel: RS
+    year: 2025
+    price_sek: 659900
+
+    range_km_wltp: 562
+    battery_kwh: 79
+
+    dc_charge_max_kw: 185
+    charge_10_80_min: 26
+
+    power_hp: 340
+    acceleration_0_100: 5.4
+    top_speed_kmh: 180
+    drive: AWD
+
+    cargo_liters: 585
+    seats: 5
+    tow_capacity_kg: 1200
+
+    notes: "Performance variant with RS styling."
+    references:
+      - https://ev-database.org/car/3184/Skoda-Enyaq-RS
+      - https://www.car.info/en-se/skoda/enyaq-iv/enyaq-iv-s-2025-121282837
+
+  - make: Skoda
+    model: Enyaq Coupe
+    submodel: "85"
+    year: 2025
+    price_sek: 619900
+
+    range_km_wltp: 582
+    battery_kwh: 77
+
+    dc_charge_max_kw: 175
+    charge_10_80_min: 28
+
+    power_hp: 286
+    acceleration_0_100: 6.7
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 570
+    seats: 5
+    tow_capacity_kg: 1200
+
+    notes: "Coupe styling with slightly better aero. Cd 0.225."
+    references:
+      - https://www.skoda.se/modeller/enyaq/enyaq-coupe-solid-edition
+      - https://www.electrifying.com/reviews/skoda-reviews/new-enyaq/review
+
+  # ============================================================================
+  # TOYOTA BZ4X
+  # ============================================================================
+  - make: Toyota
+    model: bZ4X
+    submodel: FWD
+    year: 2026
+    price_sek: 479900
+
+    range_km_wltp: 444
+    battery_kwh: 57.7
+
+    dc_charge_max_kw: 150
+    charge_10_80_min: 30
+
+    power_hp: 165
+    acceleration_0_100: 8.0
+    top_speed_kmh: 160
+    drive: FWD
+
+    cargo_liters: 452
+    seats: 5
+    tow_capacity_kg: 750
+
+    notes: "New 57.7 kWh battery option for 2026. Updated styling."
+    references:
+      - https://www.toyota.se/bilar/kampanjer/bz4x
+      - https://newsroom.toyota.eu/the-new-toyota-bz4x-more-power-more-efficiency-and-more-comfort/
+
+  - make: Toyota
+    model: bZ4X
+    submodel: FWD Long Range
+    year: 2026
+    price_sek: 549900
+
+    range_km_wltp: 569
+    battery_kwh: 73.1
+
+    dc_charge_max_kw: 150
+    charge_10_80_min: 30
+
+    power_hp: 221
+    acceleration_0_100: 7.5
+    top_speed_kmh: 160
+    drive: FWD
+
+    cargo_liters: 452
+    seats: 5
+    tow_capacity_kg: 750
+
+    notes: "Maximum range variant. 10-year/1M km battery warranty available."
+    references:
+      - https://ev-database.org/car/3135/Toyota-bZ4X-AWD-731-kWh
+      - https://newsroom.toyota.eu/the-new-toyota-bz4x-more-power-more-efficiency-and-more-comfort/
+
+  - make: Toyota
+    model: bZ4X
+    submodel: AWD
+    year: 2026
+    price_sek: 607900
+
+    range_km_wltp: 516
+    battery_kwh: 69
+
+    dc_charge_max_kw: 150
+    charge_10_80_min: 28
+
+    power_hp: 343
+    acceleration_0_100: 5.1
+    top_speed_kmh: 160
+    drive: AWD
+
+    cargo_liters: 452
+    seats: 5
+    tow_capacity_kg: 1500
+
+    notes: "Dual motor AWD. Can tow 1,500 kg braked. X-MODE standard."
+    references:
+      - https://ev-database.org/car/3135/Toyota-bZ4X-AWD-731-kWh
+      - https://www.toyota.se/bilar/kampanjer/bz4x
+
+  # ============================================================================
+  # SUBARU SOLTERRA
+  # ============================================================================
+  - make: Subaru
+    model: Solterra
+    submodel: Premium
+    year: 2026
+    price_sek: ~500000  # Estimated, based on US $38,495 + tax/import
+
+    range_km_wltp: 463
+    battery_kwh: 74.7
+
+    dc_charge_max_kw: 150
+    charge_10_80_min: 28
+
+    power_hp: 233
+    acceleration_0_100: 5.9
+    top_speed_kmh: 177
+    drive: AWD
+
+    cargo_liters: 674
+    seats: 5
+    tow_capacity_kg: 1588
+
+    notes: "Redesigned for 2026. NACS charging port. All models AWD."
+    references:
+      - https://www.subaru.com/vehicles/solterra/2026.html
+      - https://media.subaru.com/pressrelease/2307/all-new-2026-subaru-solterra-ev-debuts-updated
+      - https://www.caranddriver.com/subaru/solterra
+
+  - make: Subaru
+    model: Solterra
+    submodel: XT
+    year: 2026
+    price_sek: ~580000
+
+    range_km_wltp: 447
+    battery_kwh: 74.7
+
+    dc_charge_max_kw: 150
+    charge_10_80_min: 28
+
+    power_hp: 338
+    acceleration_0_100: 4.9
+    top_speed_kmh: 177
+    drive: AWD
+
+    cargo_liters: 674
+    seats: 5
+    tow_capacity_kg: 1588
+
+    notes: "Quickest Subaru ever made. 8.3 inches ground clearance."
+    references:
+      - https://www.caranddriver.com/news/a69819214/2026-subaru-solterra-ev-quickest-acceleration-tested/
+      - https://media.subaru.com/newsrelease.do?id=2376&mid=341&allImage=1
+
+  # ============================================================================
+  # SUBARU E-OUTBACK
+  # ============================================================================
+  - make: Subaru
+    model: E-Outback
+    submodel: null
+    year: 2026
+    price_sek: ~600000  # Estimated, arrives Summer 2026
+
+    range_km_wltp: 449
+    battery_kwh: 74.7
+
+    dc_charge_max_kw: 150
+    charge_10_80_min: 35
+
+    power_hp: 380
+    acceleration_0_100: 4.4
+    top_speed_kmh: 180
+    drive: AWD
+
+    cargo_liters: 700
+    seats: 5
+    tow_capacity_kg: 1588
+
+    notes: "First Subaru-designed EV. 210mm ground clearance. Dual X-MODE. Arrives Summer 2026 in Europe."
+    references:
+      - https://www.subaru.eu/awd-electric/e-outback
+      - https://motoraxle.com/2026-subaru-e-outback-ev-specs-range-performance/
+      - https://www.autoexpress.co.uk/subaru/366529/new-subaru-e-outback
+
+  # ============================================================================
+  # BMW iX3
+  # ============================================================================
+  - make: BMW
+    model: iX3
+    submodel: 50 xDrive
+    year: 2026
+    price_sek: 749000
+
+    range_km_wltp: 805
+    battery_kwh: 108
+
+    dc_charge_max_kw: 400
+    charge_10_80_min: 21
+
+    power_hp: 469
+    acceleration_0_100: 4.9
+    top_speed_kmh: 210
+    drive: AWD
+
+    cargo_liters: 520
+    seats: 5
+    tow_capacity_kg: 2000
+
+    notes: "First Neue Klasse model. 800V architecture. Frunk: 58L. Arrives March 2026."
+    references:
+      - https://ev-database.org/car/3290/BMW-iX3-50-xDrive
+      - https://www.holmgrensbil.se/kampanjer/bmw/ix3
+      - https://www.automotorsport.se/nyheter/bmw-ix3-2026-premiar-sverige/
+
+  # ============================================================================
+  # VOLVO EX90
+  # ============================================================================
+  - make: Volvo
+    model: EX90
+    submodel: Twin Motor
+    year: 2026
+    price_sek: 997000
+
+    range_km_wltp: 622
+    battery_kwh: 102
+
+    dc_charge_max_kw: 350
+    charge_10_80_min: 23
+
+    power_hp: 449
+    acceleration_0_100: 5.5
+    top_speed_kmh: 180
+    drive: AWD
+
+    cargo_liters: 669
+    seats: 7
+    tow_capacity_kg: 2200
+
+    notes: "2026 model has 800V architecture. LiDAR standard."
+    references:
+      - https://ev-database.org/car/3324/Volvo-EX90-Twin-Motor
+      - https://bilweb.se/sok/volvo/ex90
+      - https://www.caranddriver.com/volvo/ex90
+
+  - make: Volvo
+    model: EX90
+    submodel: Twin Motor Performance
+    year: 2026
+    price_sek: 1090000
+
+    range_km_wltp: 580
+    battery_kwh: 102
+
+    dc_charge_max_kw: 350
+    charge_10_80_min: 23
+
+    power_hp: 510
+    acceleration_0_100: 4.9
+    top_speed_kmh: 180
+    drive: AWD
+
+    cargo_liters: 669
+    seats: 7
+    tow_capacity_kg: 2200
+
+    notes: "Performance variant. 800V for 2026."
+    references:
+      - https://ev-database.org/car/3324/Volvo-EX90-Twin-Motor
+      - https://www.volvocars.com/intl/media/press-releases/AF327F3DF42E9592/
+      - https://www.electrive.com/2025/09/23/model-year-2026-volvo-ex90-gets-800-volt-technology/
+
+  # ============================================================================
+  # VOLVO EX60
+  # ============================================================================
+  - make: Volvo
+    model: EX60
+    submodel: null
+    year: 2026
+    price_sek: ~750000  # Estimated based on positioning vs Tesla Model Y
+
+    range_km_wltp: 700
+    battery_kwh: ~100  # Estimated
+
+    dc_charge_max_kw: 350
+    charge_10_80_min: ~20  # Estimated
+
+    power_hp: ~536  # Up to 400 kW expected
+    acceleration_0_100: ~4.5  # Estimated
+    top_speed_kmh: 180
+    drive: AWD
+
+    cargo_liters: ~500  # Estimated
+    seats: 5
+    tow_capacity_kg: ~1800  # Estimated
+
+    notes: "Reveals Jan 21, 2026. First car on SPA3 platform. Longest range Volvo. Adaptive safety belts world-first."
+    references:
+      - https://www.media.volvocars.com/global/en-gb/media/pressreleases/352832/save-the-date-on-21-january-we-will-reveal-the-new-volvo-ex60
+      - https://topelectricsuv.com/news/volvo/next-gen-volvo-xc60-ev-phev/
+      - https://www.caranddriver.com/volvo/ex60
+
+  # ============================================================================
+  # HYUNDAI IONIQ 9
+  # ============================================================================
+  - make: Hyundai
+    model: Ioniq 9
+    submodel: Long Range RWD
+    year: 2026
+    price_sek: 759900
+
+    range_km_wltp: 620
+    battery_kwh: 106
+
+    dc_charge_max_kw: 250
+    charge_10_80_min: 24
+
+    power_hp: 218
+    acceleration_0_100: 9.4
+    top_speed_kmh: 185
+    drive: RWD
+
+    cargo_liters: 338
+    seats: 7
+    tow_capacity_kg: 1600
+
+    notes: "Large 3-row SUV. 800V architecture. Relaxation seats available."
+    references:
+      - https://ev-database.org/car/3067/Hyundai-IONIQ-9-Long-Range-RWD
+      - https://www.holmgrensbil.se/kampanjer/hyundai/ioniq-9
+      - https://www.hyundai.com/eu/en/models/ioniq9.html
+
+  - make: Hyundai
+    model: Ioniq 9
+    submodel: Long Range AWD
+    year: 2026
+    price_sek: 830000
+
+    range_km_wltp: 606
+    battery_kwh: 106
+
+    dc_charge_max_kw: 250
+    charge_10_80_min: 24
+
+    power_hp: 307
+    acceleration_0_100: 6.7
+    top_speed_kmh: 200
+    drive: AWD
+
+    cargo_liters: 338
+    seats: 7
+    tow_capacity_kg: 2500
+
+    notes: "Dual motor AWD. Up to 2,419L cargo with seats folded."
+    references:
+      - https://ev-database.org/car/3068/Hyundai-IONIQ-9-Long-Range-AWD
+      - https://www.caranddriver.com/hyundai/ioniq-9
+
+  - make: Hyundai
+    model: Ioniq 9
+    submodel: Performance AWD
+    year: 2026
+    price_sek: 894900
+
+    range_km_wltp: 550
+    battery_kwh: 106
+
+    dc_charge_max_kw: 250
+    charge_10_80_min: 24
+
+    power_hp: 422
+    acceleration_0_100: 4.9
+    top_speed_kmh: 200
+    drive: AWD
+
+    cargo_liters: 338
+    seats: 7
+    tow_capacity_kg: 2500
+
+    notes: "Performance variant. 6-seat option available."
+    references:
+      - https://www.holmgrensbil.se/kampanjer/hyundai/ioniq-9
+      - https://www.caranddriver.com/hyundai/ioniq-9
+
+  # ============================================================================
+  # PEUGEOT E-5008
+  # ============================================================================
+  - make: Peugeot
+    model: E-5008
+    submodel: Electric 210
+    year: 2025
+    price_sek: 609900
+
+    range_km_wltp: 502
+    battery_kwh: 73
+
+    dc_charge_max_kw: 160
+    charge_10_80_min: 36
+
+    power_hp: 213
+    acceleration_0_100: 9.7
+    top_speed_kmh: 170
+    drive: FWD
+
+    cargo_liters: 348
+    seats: 7
+    tow_capacity_kg: 1000
+
+    notes: "Only 7-seat electric SUV in segment with 500+ km range. V2L standard."
+    references:
+      - https://ev-database.org/car/2149/Peugeot-e-5008-73-kWh
+      - https://www.car.info/en-se/peugeot/5008/5008-suv-s-2024-120298176
+      - https://www.whatcar.com/peugeot/5008/4x4/review/n26918
+
+  - make: Peugeot
+    model: E-5008
+    submodel: Electric 230 Long Range
+    year: 2025
+    price_sek: ~650000
+
+    range_km_wltp: 668
+    battery_kwh: 98
+
+    dc_charge_max_kw: 160
+    charge_10_80_min: 27
+
+    power_hp: 231
+    acceleration_0_100: 9.5
+    top_speed_kmh: 170
+    drive: FWD
+
+    cargo_liters: 348
+    seats: 7
+    tow_capacity_kg: 1200
+
+    notes: "Best-in-class range for 7-seater. 916L in 5-seat mode."
+    references:
+      - https://www.electrive.com/2024/10/07/peugeot-now-sells-the-e-3008-and-e-5008-with-a-larger-battery/
+      - https://www.media.stellantis.com/em-en/peugeot/press/new-peugeot-e-3008-and-e-5008-long-range-respectively-700km-and-668km-wltp-cycle-the-best-electric-ranges-in-the-suv-market
+
+  - make: Peugeot
+    model: E-5008
+    submodel: Electric 320 Dual Motor
+    year: 2025
+    price_sek: ~720000
+
+    range_km_wltp: 473
+    battery_kwh: 73
+
+    dc_charge_max_kw: 160
+    charge_10_80_min: 36
+
+    power_hp: 326
+    acceleration_0_100: 6.5
+    top_speed_kmh: 180
+    drive: AWD
+
+    cargo_liters: 348
+    seats: 7
+    tow_capacity_kg: 1000
+
+    notes: "AWD performance variant."
+    references:
+      - https://ev-database.org/car/2150/Peugeot-e-5008-73-kWh-Dual-Motor
+      - https://www.topgear.com/car-reviews/peugeot/e-5008
+
+  # ============================================================================
+  # RENAULT SCENIC E-TECH
+  # ============================================================================
+  - make: Renault
+    model: Scenic E-Tech
+    submodel: EV60 Techno
+    year: 2025
+    price_sek: ~480000
+
+    range_km_wltp: 430
+    battery_kwh: 60
+
+    dc_charge_max_kw: 130
+    charge_10_80_min: 32
+
+    power_hp: 170
+    acceleration_0_100: 8.6
+    top_speed_kmh: 150
+    drive: FWD
+
+    cargo_liters: 545
+    seats: 5
+    tow_capacity_kg: 1100
+
+    notes: "2024 European Car of the Year. Standard V2L capability."
+    references:
+      - https://ev-database.org/car/2069/Renault-Scenic-E-Tech-EV87-220hp
+      - https://www.car.info/en-se/renault/scenic-e-tech/scenic-e-tech-60-kwh-s-2025-121172424
+      - https://en.wikipedia.org/wiki/Renault_Scenic_E-Tech
+
+  - make: Renault
+    model: Scenic E-Tech
+    submodel: EV87 Techno Long Range
+    year: 2025
+    price_sek: 519900
+
+    range_km_wltp: 625
+    battery_kwh: 87
+
+    dc_charge_max_kw: 150
+    charge_10_80_min: 40
+
+    power_hp: 218
+    acceleration_0_100: 7.9
+    top_speed_kmh: 170
+    drive: FWD
+
+    cargo_liters: 545
+    seats: 5
+    tow_capacity_kg: 1100
+
+    notes: "Long range variant. 22 kW AC bidirectional charger optional."
+    references:
+      - https://ev-database.org/car/2069/Renault-Scenic-E-Tech-EV87-220hp
+      - https://www.car.info/en-se/renault/scenic-e-tech
+      - https://www.whatcar.com/renault/scenic-e-tech/estate/review/n26635
+
+  - make: Renault
+    model: Scenic E-Tech
+    submodel: EV87 Esprit Alpine
+    year: 2025
+    price_sek: ~580000
+
+    range_km_wltp: 610
+    battery_kwh: 87
+
+    dc_charge_max_kw: 150
+    charge_10_80_min: 40
+
+    power_hp: 218
+    acceleration_0_100: 7.9
+    top_speed_kmh: 170
+    drive: FWD
+
+    cargo_liters: 545
+    seats: 5
+    tow_capacity_kg: 1100
+
+    notes: "Top trim with electric seats, face ID driver profiles, one-pedal driving."
+    references:
+      - https://ev-database.org/car/2069/Renault-Scenic-E-Tech-EV87-220hp
+      - https://media.renault.com/?p=524624
+      - https://www.renault.co.uk/electric-vehicles/scenic/specifications.html
+
+  # ============================================================================
+  # PORSCHE MACAN ELECTRIC
+  # ============================================================================
+  - make: Porsche
+    model: Macan Electric
+    submodel: null
+    year: 2026
+    price_sek: ~935000
+
+    range_km_wltp: 641
+    battery_kwh: 95
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 360
+    acceleration_0_100: 5.7
+    top_speed_kmh: 220
+    drive: RWD
+
+    cargo_liters: 540
+    seats: 5
+    tow_capacity_kg: 2000
+
+    notes: "800V architecture. Heat pump standard. MY26."
+    references:
+      - https://ev-database.org/car/3378/Porsche-Macan-Electric
+      - https://www.caranddriver.com/porsche/macan-ev
+
+  - make: Porsche
+    model: Macan Electric
+    submodel: "4"
+    year: 2026
+    price_sek: ~975000
+
+    range_km_wltp: 611
+    battery_kwh: 95
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 408
+    acceleration_0_100: 5.2
+    top_speed_kmh: 220
+    drive: AWD
+
+    cargo_liters: 540
+    seats: 5
+    tow_capacity_kg: 2500
+
+    notes: "Dual motor AWD. 800V architecture. MY26."
+    references:
+      - https://ev-database.org/car/3379/Porsche-Macan-4-Electric
+      - https://www.caranddriver.com/porsche/macan-ev
+
+  - make: Porsche
+    model: Macan Electric
+    submodel: 4S
+    year: 2026
+    price_sek: ~1050000
+
+    range_km_wltp: 611
+    battery_kwh: 95
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 517
+    acceleration_0_100: 4.1
+    top_speed_kmh: 240
+    drive: AWD
+
+    cargo_liters: 540
+    seats: 5
+    tow_capacity_kg: 2500
+
+    notes: "Performance variant. 800V architecture. MY26."
+    references:
+      - https://ev-database.org/uk/car/3380/Porsche-Macan-4S-Electric
+      - https://www.caranddriver.com/porsche/macan-ev
+
+  # ============================================================================
+  # PORSCHE CAYENNE ELECTRIC
+  # ============================================================================
+  - make: Porsche
+    model: Cayenne Electric
+    submodel: null
+    year: 2026
+    price_sek: ~1210000
+
+    range_km_wltp: 642
+    battery_kwh: 108
+
+    dc_charge_max_kw: 390
+    charge_10_80_min: 16
+
+    power_hp: 442
+    acceleration_0_100: 4.8
+    top_speed_kmh: 230
+    drive: AWD
+
+    cargo_liters: 781
+    seats: 5
+    tow_capacity_kg: 3000
+
+    notes: "800V architecture. 400 kW peak charging. Arrives Summer 2026."
+    references:
+      - https://ev-database.org/car/3398/Porsche-Cayenne-Electric
+      - https://www.caranddriver.com/porsche/cayenne-ev
+
+  # ============================================================================
+  # VOLVO EX30
+  # ============================================================================
+  - make: Volvo
+    model: EX30
+    submodel: Single Motor
+    year: 2025
+    price_sek: 459900
+
+    range_km_wltp: 337
+    battery_kwh: 49
+
+    dc_charge_max_kw: 134
+    charge_10_80_min: 27
+
+    power_hp: 272
+    acceleration_0_100: 5.7
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 318
+    seats: 5
+    tow_capacity_kg: 1000
+
+    notes: "Entry-level EX30. Made in China."
+    references:
+      - https://ev-database.org/car/1909/Volvo-EX30-Single-Motor
+      - https://www.caranddriver.com/volvo/ex30
+
+  - make: Volvo
+    model: EX30
+    submodel: Single Motor Extended Range
+    year: 2025
+    price_sek: 519900
+
+    range_km_wltp: 476
+    battery_kwh: 65
+
+    dc_charge_max_kw: 158
+    charge_10_80_min: 25
+
+    power_hp: 272
+    acceleration_0_100: 5.3
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 318
+    seats: 5
+    tow_capacity_kg: 1600
+
+    notes: "Extended range variant. Best efficiency in class."
+    references:
+      - https://ev-database.org/car/1910/Volvo-EX30-Single-Motor-ER
+      - https://www.caranddriver.com/volvo/ex30
+
+  - make: Volvo
+    model: EX30
+    submodel: Twin Motor Performance
+    year: 2025
+    price_sek: 559900
+
+    range_km_wltp: 450
+    battery_kwh: 65
+
+    dc_charge_max_kw: 158
+    charge_10_80_min: 25
+
+    power_hp: 422
+    acceleration_0_100: 3.6
+    top_speed_kmh: 180
+    drive: AWD
+
+    cargo_liters: 318
+    seats: 5
+    tow_capacity_kg: 1600
+
+    notes: "Performance AWD variant. 0-100 in 3.6s."
+    references:
+      - https://ev-database.org/uk/car/1911/Volvo-EX30-Twin-Motor-Performance
+      - https://www.caranddriver.com/volvo/ex30
+
+  # ============================================================================
+  # KIA EV9
+  # ============================================================================
+  - make: Kia
+    model: EV9
+    submodel: Long Range RWD
+    year: 2025
+    price_sek: 749900
+
+    range_km_wltp: 579
+    battery_kwh: 96
+
+    dc_charge_max_kw: 209
+    charge_10_80_min: 22
+
+    power_hp: 204
+    acceleration_0_100: 9.4
+    top_speed_kmh: 185
+    drive: RWD
+
+    cargo_liters: 333
+    seats: 7
+    tow_capacity_kg: 900
+
+    notes: "3-row SUV. 800V architecture. Best range variant."
+    references:
+      - https://ev-database.org/car/1834/Kia-EV9-998-kWh-RWD
+      - https://www.caranddriver.com/kia/ev9-2025
+
+  - make: Kia
+    model: EV9
+    submodel: Long Range AWD
+    year: 2025
+    price_sek: 799900
+
+    range_km_wltp: 521
+    battery_kwh: 96
+
+    dc_charge_max_kw: 209
+    charge_10_80_min: 22
+
+    power_hp: 385
+    acceleration_0_100: 6.0
+    top_speed_kmh: 200
+    drive: AWD
+
+    cargo_liters: 333
+    seats: 7
+    tow_capacity_kg: 2500
+
+    notes: "AWD variant. 800V architecture."
+    references:
+      - https://ev-database.org/car/1835/Kia-EV9-998-kWh-AWD
+      - https://www.caranddriver.com/kia/ev9-2025
+
+  # ============================================================================
+  # HYUNDAI IONIQ 5
+  # ============================================================================
+  - make: Hyundai
+    model: Ioniq 5
+    submodel: Long Range RWD
+    year: 2025
+    price_sek: 599900
+
+    range_km_wltp: 570
+    battery_kwh: 80
+
+    dc_charge_max_kw: 263
+    charge_10_80_min: 17
+
+    power_hp: 228
+    acceleration_0_100: 7.5
+    top_speed_kmh: 185
+    drive: RWD
+
+    cargo_liters: 520
+    seats: 5
+    tow_capacity_kg: 1600
+
+    notes: "Facelifted 2024 model. 800V architecture. V2L capable."
+    references:
+      - https://ev-database.org/car/2236/Hyundai-IONIQ-5-84-kWh-RWD
+      - https://www.caranddriver.com/hyundai/ioniq-5
+
+  - make: Hyundai
+    model: Ioniq 5
+    submodel: Long Range AWD
+    year: 2025
+    price_sek: 689900
+
+    range_km_wltp: 546
+    battery_kwh: 80
+
+    dc_charge_max_kw: 263
+    charge_10_80_min: 17
+
+    power_hp: 325
+    acceleration_0_100: 5.3
+    top_speed_kmh: 185
+    drive: AWD
+
+    cargo_liters: 520
+    seats: 5
+    tow_capacity_kg: 1600
+
+    notes: "AWD facelifted model. 800V architecture."
+    references:
+      - https://ev-database.org/car/2237/Hyundai-IONIQ-5-84-kWh-AWD
+      - https://www.caranddriver.com/hyundai/ioniq-5
+
+  # ============================================================================
+  # POLESTAR 2
+  # ============================================================================
+  - make: Polestar
+    model: "2"
+    submodel: Long Range Single Motor
+    year: 2026
+    price_sek: 609900
+
+    range_km_wltp: 659
+    battery_kwh: 79
+
+    dc_charge_max_kw: 205
+    charge_10_80_min: 28
+
+    power_hp: 299
+    acceleration_0_100: 6.2
+    top_speed_kmh: 205
+    drive: RWD
+
+    cargo_liters: 407
+    seats: 5
+    tow_capacity_kg: 1500
+
+    notes: "MY26. Best range Polestar 2 variant."
+    references:
+      - https://ev-database.org/car/3151/Polestar-2-Long-Range-Single-Motor
+      - https://www.caranddriver.com/polestar/polestar-2
+
+  # ============================================================================
+  # VOLKSWAGEN ID.4
+  # ============================================================================
+  - make: Volkswagen
+    model: ID.4
+    submodel: Pro
+    year: 2025
+    price_sek: 539900
+
+    range_km_wltp: 574
+    battery_kwh: 77
+
+    dc_charge_max_kw: 175
+    charge_10_80_min: 28
+
+    power_hp: 286
+    acceleration_0_100: 6.7
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 543
+    seats: 5
+    tow_capacity_kg: 1000
+
+    notes: "Best-selling EV in Europe. MEB platform."
+    references:
+      - https://ev-database.org/car/2028/Volkswagen-ID4-Pro
+      - https://www.caranddriver.com/volkswagen/id4
+
+  - make: Volkswagen
+    model: ID.4
+    submodel: Pro 4MOTION
+    year: 2025
+    price_sek: 569900
+
+    range_km_wltp: 531
+    battery_kwh: 77
+
+    dc_charge_max_kw: 175
+    charge_10_80_min: 28
+
+    power_hp: 286
+    acceleration_0_100: 6.6
+    top_speed_kmh: 180
+    drive: AWD
+
+    cargo_liters: 543
+    seats: 5
+    tow_capacity_kg: 1200
+
+    notes: "AWD variant. MEB platform."
+    references:
+      - https://ev-database.org/car/2029/Volkswagen-ID4-Pro-4MOTION
+      - https://www.caranddriver.com/volkswagen/id4
+
+  # ============================================================================
+  # AUDI A6 e-tron
+  # ============================================================================
+  # Sportback variants (Avant price - 20,000 SEK)
+  - make: Audi
+    model: A6 Sportback e-tron
+    submodel: Proline 83kWh
+    year: 2025
+    price_sek: 659900
+
+    range_km_wltp: 620
+    battery_kwh: 75.8
+
+    dc_charge_max_kw: 225
+    charge_10_80_min: 22
+
+    power_hp: 286
+    acceleration_0_100: 6.0
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: A6 Sportback e-tron
+    submodel: Proline 100kWh
+    year: 2025
+    price_sek: 739900
+
+    range_km_wltp: 756
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 367
+    acceleration_0_100: 5.4
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. Performance variant."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: A6 Sportback e-tron
+    submodel: Proline quattro
+    year: 2025
+    price_sek: 779900
+
+    range_km_wltp: 714
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 428
+    acceleration_0_100: 4.5
+    top_speed_kmh: 210
+    drive: AWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. 315 kW."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: A6 Sportback e-tron
+    submodel: S line 83kWh
+    year: 2025
+    price_sek: 709900
+
+    range_km_wltp: 610
+    battery_kwh: 75.8
+
+    dc_charge_max_kw: 225
+    charge_10_80_min: 22
+
+    power_hp: 286
+    acceleration_0_100: 6.0
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. S line exterior."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: A6 Sportback e-tron
+    submodel: S line 100kWh
+    year: 2025
+    price_sek: 789900
+
+    range_km_wltp: 744
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 367
+    acceleration_0_100: 5.4
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. S line exterior. Performance variant."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: A6 Sportback e-tron
+    submodel: S line quattro
+    year: 2025
+    price_sek: 829900
+
+    range_km_wltp: 700
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 428
+    acceleration_0_100: 4.5
+    top_speed_kmh: 210
+    drive: AWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. S line exterior. 315 kW."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  # Avant variants
+  - make: Audi
+    model: A6 Avant e-tron
+    submodel: Proline 83kWh
+    year: 2025
+    price_sek: 679900
+
+    range_km_wltp: 602
+    battery_kwh: 75.8
+
+    dc_charge_max_kw: 225
+    charge_10_80_min: 22
+
+    power_hp: 286
+    acceleration_0_100: 6.0
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. Wagon. Max cargo 1422L."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: A6 Avant e-tron
+    submodel: Proline 100kWh
+    year: 2025
+    price_sek: 759900
+
+    range_km_wltp: 735
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 367
+    acceleration_0_100: 5.4
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. Wagon. Performance variant."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: A6 Avant e-tron
+    submodel: Proline quattro
+    year: 2025
+    price_sek: 799900
+
+    range_km_wltp: 694
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 428
+    acceleration_0_100: 4.5
+    top_speed_kmh: 210
+    drive: AWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. Wagon. 315 kW."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: A6 Avant e-tron
+    submodel: S line 83kWh
+    year: 2025
+    price_sek: 729900
+
+    range_km_wltp: 592
+    battery_kwh: 75.8
+
+    dc_charge_max_kw: 225
+    charge_10_80_min: 22
+
+    power_hp: 286
+    acceleration_0_100: 6.0
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. Wagon. S line exterior."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: A6 Avant e-tron
+    submodel: S line 100kWh
+    year: 2025
+    price_sek: 809900
+
+    range_km_wltp: 723
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 367
+    acceleration_0_100: 5.4
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. Wagon. Performance variant."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: A6 Avant e-tron
+    submodel: S line quattro
+    year: 2025
+    price_sek: 849900
+
+    range_km_wltp: 683
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 428
+    acceleration_0_100: 4.5
+    top_speed_kmh: 210
+    drive: AWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. Wagon. S line exterior. 315 kW."
+    references:
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  # ============================================================================
+  # AUDI S6 e-tron
+  # ============================================================================
+  - make: Audi
+    model: S6 Sportback e-tron
+    submodel: null
+    year: 2025
+    price_sek: 1212900
+
+    range_km_wltp: 670
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 551
+    acceleration_0_100: 3.9
+    top_speed_kmh: 240
+    drive: AWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. 405 kW with launch control."
+    references:
+      - https://ev-database.org/uk/car/2271/Audi-S6-Sportback-e-tron
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  - make: Audi
+    model: S6 Avant e-tron
+    submodel: null
+    year: 2025
+    price_sek: 1232900
+
+    range_km_wltp: 640
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 551
+    acceleration_0_100: 3.9
+    top_speed_kmh: 240
+    drive: AWD
+
+    cargo_liters: 502
+    seats: 5
+    tow_capacity_kg: 2100
+
+    notes: "800V architecture. Wagon. 405 kW with launch control."
+    references:
+      - https://ev-database.org/car/2273/Audi-S6-Avant-e-tron
+      - https://www.audi.se/sv/models/a6-e-tron/
+
+  # ============================================================================
+  # AUDI Q4 e-tron
+  # ============================================================================
+  - make: Audi
+    model: Q4 e-tron
+    submodel: "45"
+    year: 2025
+    price_sek: 605000
+
+    range_km_wltp: 563
+    battery_kwh: 77
+
+    dc_charge_max_kw: 175
+    charge_10_80_min: 28
+
+    power_hp: 286
+    acceleration_0_100: 6.7
+    top_speed_kmh: 180
+    drive: RWD
+
+    cargo_liters: 520
+    seats: 5
+    tow_capacity_kg: 1000
+
+    notes: "Shares MEB platform with VW ID.4."
+    references:
+      - https://ev-database.org/car/2013/Audi-Q4-e-tron-45
+      - https://www.audi.se/sv/models/q4-e-tron/q4-e-tron/
+
+  # ============================================================================
+  # AUDI Q6 e-tron
+  # ============================================================================
+  - make: Audi
+    model: Q6 e-tron
+    submodel: quattro
+    year: 2025
+    price_sek: 885000
+
+    range_km_wltp: 625
+    battery_kwh: 94.9
+
+    dc_charge_max_kw: 270
+    charge_10_80_min: 21
+
+    power_hp: 387
+    acceleration_0_100: 5.9
+    top_speed_kmh: 210
+    drive: AWD
+
+    cargo_liters: 526
+    seats: 5
+    tow_capacity_kg: 2400
+
+    notes: "800V PPE platform. Shared with Porsche Macan Electric."
+    references:
+      - https://ev-database.org/car/2146/Audi-Q6-SUV-e-tron-quattro
+      - https://www.audi.se/sv/models/q6-e-tron/
