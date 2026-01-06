@@ -676,11 +676,12 @@
             // Dismiss tooltip when tapping elsewhere
             document.addEventListener('touchstart', function(event) {
                 const target = event.target;
-                const isPath = target.tagName === 'path' && target.closest('.foreground');
+                const isPath = target.tagName === 'path' && (target.closest('.foreground') || target.closest('.hitarea'));
                 const isTooltip = target.closest('.tooltip');
                 const isControl = target.closest('.controls') || target.closest('.legend') || target.closest('select') || target.closest('button');
 
-                if (!isPath && !isTooltip && !isControl && selectedPath) {
+                // Close tooltip when tapping anywhere outside paths/tooltip/controls
+                if (!isPath && !isTooltip && !isControl) {
                     selectedPath = null;
                     paths.classed('selected', false).classed('highlighted', false);
                     tooltip.classed('visible', false);
