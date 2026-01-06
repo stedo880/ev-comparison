@@ -574,12 +574,15 @@
                 }, { passive: true });
 
             function updatePaths() {
-                paths.classed('dimmed', d => {
+                const isFiltered = d => {
                     return Object.entries(brushSelections).some(([key, sel]) => {
                         const val = y[key](d[key]);
                         return val < sel[0] || val > sel[1];
                     });
-                });
+                };
+                paths.classed('dimmed', isFiltered);
+                // Disable touch/click on filtered hitarea paths
+                hitPaths.style('pointer-events', d => isFiltered(d) ? 'none' : null);
             }
 
             function updateAxes() {
@@ -643,14 +646,6 @@
 
             // Touch handling for iPad/mobile
             function handleTouch(event, d) {
-                // Check if path is filtered out (dimmed by brush or hidden by legend)
-                const pathElement = paths.filter(p => p.id === d.id).node();
-                const isDimmed = pathElement && pathElement.classList.contains('dimmed');
-                const isHidden = window.hiddenCategories && window.hiddenCategories.has(d[colorKey]);
-                if (isDimmed || isHidden) {
-                    return; // Let event bubble to document dismiss handler
-                }
-
                 event.stopPropagation();
 
                 // Clear previous selection
