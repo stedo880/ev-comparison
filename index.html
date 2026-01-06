@@ -645,6 +645,14 @@
             function handleTouch(event, d) {
                 event.stopPropagation();
 
+                // Check if path is filtered out (dimmed by brush or hidden by legend)
+                const pathElement = paths.filter(p => p.id === d.id).node();
+                const isDimmed = pathElement && pathElement.classList.contains('dimmed');
+                const isHidden = window.hiddenCategories && window.hiddenCategories.has(d[colorKey]);
+                if (isDimmed || isHidden) {
+                    return; // Ignore touch on filtered paths
+                }
+
                 // Clear previous selection
                 if (selectedPath) {
                     paths.classed('selected', false);
