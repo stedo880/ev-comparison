@@ -676,9 +676,35 @@
                 paths.classed('highlighted', p => p.id === d.id);
             }
 
-            // Dismiss tooltip when tapping elsewhere
+            // Dismiss tooltip when single-tapping elsewhere (not pinch/zoom)
+            let touchStartTime = 0;
+            let touchStartPos = null;
             document.addEventListener('touchstart', function(event) {
-                const target = event.target;
+                // Ignore multi-touch gestures (pinch/zoom)
+                if (event.touches.length > 1) {
+                    touchStartPos = null;
+                    return;
+                }
+                touchStartTime = Date.now();
+                touchStartPos = { x: event.touches[0].clientX, y: event.touches[0].clientY };
+            }, { passive: true });
+
+            document.addEventListener('touchend', function(event) {
+                // Only dismiss on quick single taps (not drags or multi-touch)
+                if (!touchStartPos) return;
+                if (event.changedTouches.length !== 1) return;
+
+                const touchDuration = Date.now() - touchStartTime;
+                const touch = event.changedTouches[0];
+                const moveDistance = Math.hypot(touch.clientX - touchStartPos.x, touch.clientY - touchStartPos.y);
+
+                // Must be a quick tap (< 300ms) with minimal movement (< 10px)
+                if (touchDuration > 300 || moveDistance > 10) {
+                    touchStartPos = null;
+                    return;
+                }
+
+                const target = touch.target;
                 const isPath = target.tagName === 'path' && (target.closest('.foreground') || target.closest('.hitarea'));
                 const isTooltip = target.closest('.tooltip');
                 const isControl = target.closest('.controls') || target.closest('.legend') || target.closest('select') || target.closest('button');
@@ -689,6 +715,7 @@
                     paths.classed('selected', false).classed('highlighted', false);
                     tooltip.classed('visible', false);
                 }
+                touchStartPos = null;
             }, { passive: true });
 
             // Legend
