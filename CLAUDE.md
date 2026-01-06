@@ -6,7 +6,7 @@ Interactive visualization tool for comparing electric vehicles available in Swed
 
 ## Files
 
-- `evs.yaml` - EV dataset with 73 vehicles, specs, pricing (SEK), and references
+- `evs.yaml` - EV dataset with 77 vehicles, specs, pricing (SEK), and references
 - `index.html` - D3.js visualization with interactive parallel coordinates plot
 
 ## Data Structure
@@ -22,7 +22,7 @@ Each EV entry in `evs.yaml` contains:
 
 ## Current Makes
 
-Audi, BMW, Hyundai, Kia, Peugeot, Polestar, Porsche, Renault, Skoda, Subaru, Tesla, Toyota, Volkswagen, Volvo
+Audi, BMW, Hyundai, Kia, Mercedes-Benz, Peugeot, Polestar, Porsche, Renault, Skoda, Subaru, Tesla, Toyota, Volkswagen, Volvo
 
 ## Data Sources
 
@@ -50,7 +50,7 @@ Then open http://localhost:8000
 
 Colors are brand-inspired while maintaining visual distinction:
 - Audi: Red, BMW: Blue, Hyundai: Cyan, Kia: Orange
-- Peugeot: Indigo, Polestar: Ice blue, Porsche: Burgundy
+- Mercedes-Benz: Silver, Peugeot: Indigo, Polestar: Ice blue, Porsche: Burgundy
 - Renault: Yellow, Skoda: Green, Subaru: Blue
 - Tesla: Magenta-red, Toyota: Deep orange
 - Volkswagen: Dark blue, Volvo: Blue-grey

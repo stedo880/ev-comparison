@@ -1990,3 +1990,111 @@ evs:
     references:
       - https://ev-database.org/car/2146/Audi-Q6-SUV-e-tron-quattro
       - https://www.audi.se/sv/models/q6-e-tron/
+
+  # ============================================================================
+  # MERCEDES-BENZ EQE
+  # ============================================================================
+  - make: Mercedes-Benz
+    model: EQE
+    submodel: "350+"
+    year: 2025
+    price_sek: 719000
+
+    range_km_wltp: 586
+    battery_kwh: 96
+
+    dc_charge_max_kw: 173
+    charge_10_80_min: 30
+
+    power_hp: 292
+    acceleration_0_100: 6.5
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 430
+    seats: 5
+    tow_capacity_kg: 750
+
+    notes: "Campaign price. Regular 770,150 SEK."
+    references:
+      - https://ev-database.org/car/2205/Mercedes-Benz-EQE-350plus
+      - https://www.bilia.se/bilar/mercedes-benz/bilmodeller/sedan/mercedes-benz-eqe/
+
+  - make: Mercedes-Benz
+    model: EQE SUV
+    submodel: "350+"
+    year: 2025
+    price_sek: 819000
+
+    range_km_wltp: 628
+    battery_kwh: 96
+
+    dc_charge_max_kw: 173
+    charge_10_80_min: 30
+
+    power_hp: 292
+    acceleration_0_100: 6.9
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 520
+    seats: 5
+    tow_capacity_kg: 750
+
+    notes: "Campaign price. Regular 975,000 SEK."
+    references:
+      - https://ev-database.org/car/2046/Mercedes-Benz-EQE-SUV-350plus
+      - https://www.bilia.se/bilar/mercedes-benz/bilmodeller/terrangbil-suv/mercedes-benz-eqe-suv/
+
+  # ============================================================================
+  # MERCEDES-BENZ EQS
+  # ============================================================================
+  - make: Mercedes-Benz
+    model: EQS
+    submodel: "450+"
+    year: 2025
+    price_sek: 1293900
+
+    range_km_wltp: 822
+    battery_kwh: 118
+
+    dc_charge_max_kw: 200
+    charge_10_80_min: 33
+
+    power_hp: 360
+    acceleration_0_100: 6.2
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 620
+    seats: 5
+    tow_capacity_kg: 750
+
+    notes: "Flagship sedan. 118 kWh battery."
+    references:
+      - https://ev-database.org/car/2193/Mercedes-Benz-EQS-450plus
+
+  - make: Mercedes-Benz
+    model: EQS SUV
+    submodel: "450+"
+    year: 2025
+    price_sek: 1477000
+
+    range_km_wltp: 720
+    battery_kwh: 118
+
+    dc_charge_max_kw: 200
+    charge_10_80_min: 33
+
+    power_hp: 360
+    acceleration_0_100: 6.8
+    top_speed_kmh: 210
+    drive: RWD
+
+    cargo_liters: 645
+    seats: 7
+    tow_capacity_kg: 750
+
+    notes: "7-seater luxury SUV. 118 kWh battery."
+    references:
+      - https://ev-database.org/car/2087/Mercedes-Benz-EQS-SUV-450plus
