@@ -295,6 +295,21 @@
             font-weight: 500;
         }
 
+        .tooltip-link {
+            display: inline-block;
+            margin-left: 8px;
+            color: #00bcd4;
+            text-decoration: none;
+            pointer-events: auto;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+        .tooltip-link:hover {
+            color: #4dd0e1;
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 <body>
@@ -373,7 +388,8 @@
                 cargo_liters: parseNum(d.cargo_liters),
                 seats: d.seats || 5,
                 tow_capacity_kg: parseNum(d.tow_capacity_kg),
-                notes: d.notes || ''
+                notes: d.notes || '',
+                dealer_url: d.dealer_url || ''
             }));
 
             // Dimensions for parallel coordinates
@@ -628,8 +644,9 @@
 
             function showTooltip(event, d) {
                 tooltip.classed('visible', true);
+                const dealerLink = d.dealer_url ? `<a class="tooltip-link" href="${d.dealer_url}" target="_blank" title="View on dealer site">🔗</a>` : '';
                 tooltip.html(`
-                    <div class="tooltip-title" style="color: ${makeColors(d.make)}">${d.name}</div>
+                    <div class="tooltip-title" style="color: ${makeColors(d.make)}">${d.name}${dealerLink}</div>
                     <div class="tooltip-content">
                         <div class="tooltip-row"><span class="tooltip-label">Price:</span><span class="tooltip-value">${d3.format(',.0f')(d.price_sek)} SEK</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">Range:</span><span class="tooltip-value">${d.range_km_wltp} km</span></div>
@@ -671,8 +688,9 @@
 
                 // Show tooltip
                 tooltip.classed('visible', true);
+                const dealerLink = d.dealer_url ? `<a class="tooltip-link" href="${d.dealer_url}" target="_blank" title="View on dealer site">🔗</a>` : '';
                 tooltip.html(`
-                    <div class="tooltip-title" style="color: ${makeColors(d.make)}">${d.name}</div>
+                    <div class="tooltip-title" style="color: ${makeColors(d.make)}">${d.name}${dealerLink}</div>
                     <div class="tooltip-content">
                         <div class="tooltip-row"><span class="tooltip-label">Price:</span><span class="tooltip-value">${d3.format(',.0f')(d.price_sek)} SEK</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">Range:</span><span class="tooltip-value">${d.range_km_wltp} km</span></div>
