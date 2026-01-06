@@ -679,8 +679,12 @@
                 .attr('d', path)
                 .on('mouseover', showTooltip)
                 .on('mousemove', moveTooltip)
-                .on('mouseout', hideTooltip)
-                .on('click', clickPath);
+                .on('mouseout', hideTooltip);
+
+            // Desktop: click to lock tooltip
+            if (!isTouchDevice) {
+                hitPaths.on('click', clickPath);
+            }
 
             // Touch events on hitPaths
             if (isTouchDevice) {
@@ -944,22 +948,24 @@
                 touchStartPos = null;
             }, { passive: true });
 
-            // Click outside to dismiss tooltip (desktop)
-            document.addEventListener('click', function(event) {
-                if (!selectedPath) return;
+            // Click outside to dismiss tooltip (desktop only)
+            if (!isTouchDevice) {
+                document.addEventListener('click', function(event) {
+                    if (!selectedPath) return;
 
-                const target = event.target;
-                const isPath = target.tagName === 'path' && (target.closest('.foreground') || target.closest('.hitarea'));
-                const isTooltip = target.closest('.tooltip');
-                const isControl = target.closest('.side-panel') || target.closest('.hamburger') || target.closest('select') || target.closest('button');
+                    const target = event.target;
+                    const isPath = target.tagName === 'path' && (target.closest('.foreground') || target.closest('.hitarea'));
+                    const isTooltip = target.closest('.tooltip');
+                    const isControl = target.closest('.side-panel') || target.closest('.hamburger') || target.closest('select') || target.closest('button');
 
-                if (!isPath && !isTooltip && !isControl) {
-                    selectedPath = null;
-                    paths.classed('selected', false).classed('highlighted', false);
-                    foreground.classed('has-selection', false);
-                    tooltip.classed('visible', false);
-                }
-            });
+                    if (!isPath && !isTooltip && !isControl) {
+                        selectedPath = null;
+                        paths.classed('selected', false).classed('highlighted', false);
+                        foreground.classed('has-selection', false);
+                        tooltip.classed('visible', false);
+                    }
+                });
+            }
 
             // Legend
             function updateLegend() {
