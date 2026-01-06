@@ -22,56 +22,192 @@
 
         header {
             background: #16213e;
-            padding: 20px 40px;
+            padding: 8px 15px;
             border-bottom: 1px solid #0f3460;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            z-index: 1000;
         }
 
-        h1 {
-            font-size: 1.8rem;
-            font-weight: 600;
+        header h1 {
+            font-size: 1.1rem;
+            font-weight: 500;
             color: #00bcd4;
         }
 
-        h1 span {
+        .hamburger {
+            background: transparent;
+            border: none;
             color: #eee;
-            font-weight: 400;
+            font-size: 1.4rem;
+            cursor: pointer;
+            padding: 4px;
+            line-height: 1;
+            width: auto;
         }
 
-        .subtitle {
-            color: #888;
-            margin-top: 5px;
-            font-size: 0.9rem;
+        .hamburger:hover {
+            color: #00bcd4;
         }
 
-        .controls {
+        /* Side panel */
+        .panel-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 900;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+
+        .panel-overlay.open {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .side-panel {
+            position: fixed;
+            top: 45px;
+            right: -320px;
+            width: 300px;
+            height: calc(100vh - 45px);
             background: #16213e;
-            padding: 15px 40px;
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            align-items: center;
+            z-index: 950;
+            transition: right 0.3s ease;
+            overflow-y: auto;
+            border-left: 1px solid #0f3460;
+        }
+
+        .side-panel.open {
+            right: 0;
+        }
+
+        .panel-section {
+            padding: 15px 20px;
             border-bottom: 1px solid #0f3460;
+        }
+
+        .panel-section-title {
+            font-size: 0.75rem;
+            color: #888;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        /* Rotate prompt for portrait phones */
+        .rotate-prompt {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: #1a1a2e;
+            z-index: 2000;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .rotate-icon {
+            width: 80px;
+            height: 120px;
+            border: 3px solid #00bcd4;
+            border-radius: 10px;
+            position: relative;
+            animation: rotate-phone 2s ease-in-out infinite;
+        }
+
+        .rotate-icon::before {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 6px;
+            height: 6px;
+            background: #00bcd4;
+            border-radius: 50%;
+        }
+
+        .rotate-icon::after {
+            content: '';
+            position: absolute;
+            bottom: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 4px;
+            background: #00bcd4;
+            border-radius: 2px;
+        }
+
+        @keyframes rotate-phone {
+            0%, 30% { transform: rotate(0deg); }
+            50%, 80% { transform: rotate(90deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+        .rotate-text {
+            margin-top: 30px;
+            font-size: 1.2rem;
+            color: #eee;
+        }
+
+        .rotate-subtext {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        @media (max-width: 480px) and (orientation: portrait) {
+            .rotate-prompt {
+                display: flex;
+            }
+            header, #chart, .tooltip, .panel-overlay, .side-panel {
+                display: none !important;
+            }
+        }
+
+        .panel-controls {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
 
         .control-group {
             display: flex;
-            align-items: center;
-            gap: 8px;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .control-group.inline {
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .control-group.inline button {
+            width: auto;
+            flex: 1;
         }
 
         .control-group label {
-            font-size: 0.85rem;
-            color: #aaa;
+            font-size: 0.75rem;
+            color: #888;
+            text-transform: uppercase;
         }
 
         select, button {
             background: #0f3460;
             border: 1px solid #1a1a2e;
             color: #eee;
-            padding: 8px 12px;
+            padding: 10px 12px;
             border-radius: 4px;
             font-size: 0.85rem;
             cursor: pointer;
+            width: 100%;
         }
 
         select:hover, button:hover {
@@ -82,13 +218,11 @@
             background: #e94560;
         }
 
-        .legend {
+        .panel-legend {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
-            padding: 15px 40px;
-            background: #16213e;
-            border-bottom: 1px solid #0f3460;
+            gap: 8px;
+            margin-top: 15px;
         }
 
         .legend-item {
@@ -118,8 +252,8 @@
 
         #chart {
             width: 100%;
-            height: calc(100vh - 220px);
-            min-height: 500px;
+            height: calc(100vh - 45px);
+            min-height: 400px;
         }
 
         .axis text {
@@ -225,18 +359,6 @@
                 width: 16px;
                 height: 16px;
             }
-
-            header {
-                padding: 15px 20px;
-            }
-
-            .controls {
-                padding: 12px 20px;
-            }
-
-            .legend {
-                padding: 12px 20px;
-            }
         }
 
         .brush .selection {
@@ -313,36 +435,59 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>EV Comparison <span>Parallel Coordinates</span></h1>
-        <p class="subtitle">Interactive visualization of electric vehicles available in Sweden H1 2026</p>
-    </header>
-
-    <div class="controls">
-        <div class="control-group">
-            <label>Color by:</label>
-            <select id="colorBy">
-                <option value="make">Make</option>
-                <option value="drive">Drive Type</option>
-                <option value="seats">Seats</option>
-            </select>
-        </div>
-        <div class="control-group">
-            <label>Highlight:</label>
-            <select id="highlight">
-                <option value="">None</option>
-            </select>
-        </div>
-        <div class="control-group">
-            <button id="resetBrush">Reset Filters</button>
-        </div>
-        <div class="control-group">
-            <button id="deselectAll">Hide All</button>
-            <button id="selectAll">Show All</button>
-        </div>
+    <!-- Rotate prompt for portrait phones -->
+    <div class="rotate-prompt">
+        <div class="rotate-icon"></div>
+        <div class="rotate-text">Rotate your device</div>
+        <div class="rotate-subtext">This visualization works best in landscape mode</div>
     </div>
 
-    <div class="legend" id="legend"></div>
+    <header>
+        <h1>EV Comparison</h1>
+        <button class="hamburger" id="menuToggle" aria-label="Toggle menu">&#9776;</button>
+    </header>
+
+    <!-- Panel overlay -->
+    <div class="panel-overlay" id="panelOverlay"></div>
+
+    <!-- Side panel -->
+    <div class="side-panel" id="sidePanel">
+        <div class="panel-section">
+            <div class="panel-section-title">Display</div>
+            <div class="panel-controls">
+                <div class="control-group">
+                    <label>Color by</label>
+                    <select id="colorBy">
+                        <option value="make">Make</option>
+                        <option value="drive">Drive Type</option>
+                        <option value="seats">Seats</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label>Highlight</label>
+                    <select id="highlight">
+                        <option value="">None</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="panel-section">
+            <div class="panel-section-title">Filters</div>
+            <div class="panel-controls">
+                <button id="resetBrush">Reset Filters</button>
+            </div>
+        </div>
+        <div class="panel-section">
+            <div class="panel-section-title">Makes</div>
+            <div class="panel-controls">
+                <div class="control-group inline">
+                    <button id="deselectAll">Hide All</button>
+                    <button id="selectAll">Show All</button>
+                </div>
+            </div>
+            <div class="panel-legend" id="legend"></div>
+        </div>
+    </div>
 
     <svg id="chart"></svg>
 
@@ -350,6 +495,26 @@
 
 
     <script>
+        // Panel toggle functionality
+        (function() {
+            const menuToggle = document.getElementById('menuToggle');
+            const panelOverlay = document.getElementById('panelOverlay');
+            const sidePanel = document.getElementById('sidePanel');
+
+            function togglePanel() {
+                sidePanel.classList.toggle('open');
+                panelOverlay.classList.toggle('open');
+            }
+
+            function closePanel() {
+                sidePanel.classList.remove('open');
+                panelOverlay.classList.remove('open');
+            }
+
+            menuToggle.addEventListener('click', togglePanel);
+            panelOverlay.addEventListener('click', closePanel);
+        })();
+
         // Load and parse YAML data
         async function loadData() {
             const response = await fetch('evs.yaml');
@@ -740,7 +905,7 @@
                 const target = touch.target;
                 const isPath = target.tagName === 'path' && (target.closest('.foreground') || target.closest('.hitarea'));
                 const isTooltip = target.closest('.tooltip');
-                const isControl = target.closest('.controls') || target.closest('.legend') || target.closest('select') || target.closest('button');
+                const isControl = target.closest('.side-panel') || target.closest('.hamburger') || target.closest('select') || target.closest('button');
 
                 // Close tooltip when tapping anywhere outside paths/tooltip/controls
                 if (!isPath && !isTooltip && !isControl) {
