@@ -679,7 +679,8 @@
                 .attr('d', path)
                 .on('mouseover', showTooltip)
                 .on('mousemove', moveTooltip)
-                .on('mouseout', hideTooltip);
+                .on('mouseout', hideTooltip)
+                .on('click', clickPath);
 
             // Touch events on hitPaths
             if (isTouchDevice) {
@@ -809,6 +810,8 @@
             const tooltip = d3.select('#tooltip');
 
             function showTooltip(event, d) {
+                // Don't change tooltip if a path is selected (clicked)
+                if (selectedPath) return;
                 tooltip.classed('visible', true);
                 const dealerLink = d.dealer_url ? `<a class="tooltip-link" href="${d.dealer_url}" target="_blank" title="View on dealer site">↗</a>` : '';
                 tooltip.html(`
@@ -834,9 +837,32 @@
             }
 
             function hideTooltip() {
+                // Don't hide if a path is selected (clicked)
+                if (selectedPath) return;
                 tooltip.classed('visible', false);
                 paths.classed('highlighted', false);
                 foreground.classed('has-selection', false);
+            }
+
+            function clickPath(event, d) {
+                event.stopPropagation();
+
+                // If clicking the same path, deselect it
+                if (selectedPath && selectedPath.id === d.id) {
+                    selectedPath = null;
+                    paths.classed('selected', false);
+                    tooltip.classed('visible', false);
+                    paths.classed('highlighted', false);
+                    foreground.classed('has-selection', false);
+                    return;
+                }
+
+                // Select the new path - clear first so showTooltip works
+                const prevSelected = selectedPath;
+                selectedPath = null;
+                showTooltip(event, d);
+                selectedPath = d;
+                paths.classed('selected', p => p.id === d.id);
             }
 
             // Touch handling for iPad/mobile
@@ -917,6 +943,23 @@
                 }
                 touchStartPos = null;
             }, { passive: true });
+
+            // Click outside to dismiss tooltip (desktop)
+            document.addEventListener('click', function(event) {
+                if (!selectedPath) return;
+
+                const target = event.target;
+                const isPath = target.tagName === 'path' && (target.closest('.foreground') || target.closest('.hitarea'));
+                const isTooltip = target.closest('.tooltip');
+                const isControl = target.closest('.side-panel') || target.closest('.hamburger') || target.closest('select') || target.closest('button');
+
+                if (!isPath && !isTooltip && !isControl) {
+                    selectedPath = null;
+                    paths.classed('selected', false).classed('highlighted', false);
+                    foreground.classed('has-selection', false);
+                    tooltip.classed('visible', false);
+                }
+            });
 
             // Legend
             function updateLegend() {
