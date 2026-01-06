@@ -174,6 +174,11 @@
             stroke-opacity: 0.05;
         }
 
+        /* When a path is selected, dim other non-filtered paths */
+        .foreground.has-selection path:not(.highlighted):not(.dimmed) {
+            stroke-opacity: 0.25;
+        }
+
         .foreground path.highlighted {
             stroke-width: 3;
             stroke-opacity: 1;
@@ -631,6 +636,7 @@
                     <div class="tooltip-row"><span class="tooltip-label">Tow:</span><span class="tooltip-value">${d.tow_capacity_kg} kg</span></div>
                 `);
                 paths.classed('highlighted', p => p.id === d.id);
+                foreground.classed('has-selection', true);
             }
 
             function moveTooltip(event) {
@@ -642,6 +648,7 @@
             function hideTooltip() {
                 tooltip.classed('visible', false);
                 paths.classed('highlighted', false);
+                foreground.classed('has-selection', false);
             }
 
             // Touch handling for iPad/mobile
@@ -674,6 +681,7 @@
 
                 // Highlight this path, dim others
                 paths.classed('highlighted', p => p.id === d.id);
+                foreground.classed('has-selection', true);
             }
 
             // Dismiss tooltip when single-tapping elsewhere (not pinch/zoom)
@@ -713,6 +721,7 @@
                 if (!isPath && !isTooltip && !isControl) {
                     selectedPath = null;
                     paths.classed('selected', false).classed('highlighted', false);
+                    foreground.classed('has-selection', false);
                     tooltip.classed('visible', false);
                 }
                 touchStartPos = null;
@@ -799,9 +808,11 @@
                 const val = this.value;
                 if (val === '') {
                     paths.classed('highlighted', false).classed('dimmed', false);
+                    foreground.classed('has-selection', false);
                 } else {
                     paths.classed('highlighted', d => d.id === +val)
                         .classed('dimmed', d => d.id !== +val);
+                    foreground.classed('has-selection', true);
                 }
             });
 
@@ -813,11 +824,12 @@
                 });
                 // Reset hidden categories
                 window.hiddenCategories = new Set();
-                paths.classed('dimmed', false).classed('selected', false).style('display', null);
-                hitPaths.style('display', null);
+                paths.classed('dimmed', false).classed('selected', false).classed('highlighted', false).style('display', null);
+                hitPaths.style('display', null).style('pointer-events', null);
                 d3.selectAll('.legend-item').classed('dimmed', false);
                 d3.select('#highlight').property('value', '');
                 tooltip.classed('visible', false);
+                foreground.classed('has-selection', false);
                 selectedPath = null;
             });
 
