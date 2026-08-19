@@ -2,17 +2,18 @@
 
 ## Overview
 
-Interactive visualization tool for comparing electric vehicles available in Sweden H1 2026. Uses a parallel coordinates plot to compare EVs across multiple dimensions.
+Interactive visualization tool for comparing electric vehicles sold new in Sweden (last verified August 2026). Uses a parallel coordinates plot to compare EVs across multiple dimensions.
 
 ## Files
 
-- `evs.yaml` - EV dataset with 87 vehicles, specs, pricing (SEK), and references
+- `evs.yaml` - EV dataset with 81 vehicles, specs, pricing (SEK), and references
 - `index.html` - D3.js visualization with interactive parallel coordinates plot
 
 ## Data Structure
 
 Each EV entry in `evs.yaml` contains:
 - **Identity**: make, model, submodel, year
+- **Size**: segment (ev-database.org segment code, e.g. `JC`; the letter gives the size class - B: Compact, C: Medium, D: Large, E: Executive, F: Luxury - and a leading `J` means SUV body)
 - **Pricing**: price_sek (Swedish Krona)
 - **Range/Battery**: range_km_wltp, battery_kwh
 - **Charging**: dc_charge_max_kw, charge_10_80_min
