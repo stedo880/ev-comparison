@@ -42,6 +42,7 @@ Then open http://localhost:8000
 - Parallel coordinates across: Price, Range, Battery, Charge Speed, Charge Time, Power, Acceleration, Top Speed, Cargo, Seats, Tow Capacity
 - Color by: Make (brand-inspired colors), Drive type, or Seats
 - Interactive filtering via brush selection on axes
+- Size filter (ev-database.org size classes derived from segment codes; toggle chips in the Filters section)
 - Legend toggle to show/hide brands (click to toggle, Hide All/Show All buttons)
 - Click axis labels to invert scale (e.g., Price)
 - Fuzzy hover detection (20px hitarea on PC, 8px on touch devices)

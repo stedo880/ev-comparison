@@ -251,6 +251,14 @@
             border-radius: 2px;
         }
 
+        .size-filter {
+            margin-top: 0;
+        }
+
+        .size-filter .legend-item {
+            border: 1px solid #0f3460;
+        }
+
         #chart {
             width: 100%;
             height: calc(100vh - 45px);
@@ -475,6 +483,10 @@
         <div class="panel-section">
             <div class="panel-section-title">Filters</div>
             <div class="panel-controls">
+                <div class="control-group">
+                    <label>Size</label>
+                    <div class="panel-legend size-filter" id="sizeFilter"></div>
+                </div>
                 <button id="resetBrush">Reset Filters</button>
             </div>
         </div>
@@ -535,6 +547,10 @@
                 return parseFloat(String(val).replace('~', '')) || 0;
             };
 
+            // ev-database.org segment codes: letter = size class, leading J = SUV body
+            const segmentSizes = { A: 'Mini', B: 'Compact', C: 'Medium', D: 'Large', E: 'Executive', F: 'Luxury', N: 'Van', S: 'Sports' };
+            const segmentSize = segment => segmentSizes[String(segment || '').replace(/^J/, '')] || 'Unknown';
+
             const data = rawData.map((d, i) => ({
                 id: i,
                 name: `${d.make} ${d.model}${d.submodel ? ' ' + d.submodel : ''}`,
@@ -551,6 +567,7 @@
                 acceleration_0_100: parseNum(d.acceleration_0_100),
                 top_speed_kmh: parseNum(d.top_speed_kmh),
                 drive: d.drive || 'Unknown',
+                size: segmentSize(d.segment),
                 cargo_liters: parseNum(d.cargo_liters),
                 seats: d.seats || 5,
                 tow_capacity_kg: parseNum(d.tow_capacity_kg),
@@ -575,6 +592,8 @@
             const makes = [...new Set(data.map(d => d.make))].sort();
             const drives = [...new Set(data.map(d => d.drive))].sort();
             const seatOptions = [...new Set(data.map(d => d.seats))].sort((a, b) => a - b);
+            const sizes = [...Object.values(segmentSizes), 'Unknown'].filter(s => data.some(d => d.size === s));
+            const hiddenSizes = new Set();
 
             // Brand-inspired colors (while maintaining visual distinction)
             const brandColorMap = {
@@ -782,6 +801,15 @@
                 hitPaths.style('pointer-events', d => isFiltered(d) ? 'none' : null);
             }
 
+            // Hidden = legend category toggled off, or size class filtered out
+            const isHiddenByFilter = d => window.hiddenCategories.has(d[colorKey]) || hiddenSizes.has(d.size);
+
+            function updateVisibility() {
+                paths.style('display', d => isHiddenByFilter(d) ? 'none' : null);
+                hitPaths.style('display', d => isHiddenByFilter(d) ? 'none' : null);
+                updatePaths();
+            }
+
             function updateAxes() {
                 dimensions.forEach(dim => {
                     const extent = d3.extent(data, d => d[dim.key]);
@@ -827,6 +855,7 @@
                         <div class="tooltip-row"><span class="tooltip-label">Power:</span><span class="tooltip-value">${d.power_hp} hp</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">0-100:</span><span class="tooltip-value">${d.acceleration_0_100}s</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">Drive:</span><span class="tooltip-value">${d.drive}</span></div>
+                        <div class="tooltip-row"><span class="tooltip-label">Size:</span><span class="tooltip-value">${d.size}</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">Cargo:</span><span class="tooltip-value">${d.cargo_liters}L</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">Seats:</span><span class="tooltip-value">${d.seats}</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">Tow:</span><span class="tooltip-value">${d.tow_capacity_kg} kg</span></div>
@@ -894,6 +923,7 @@
                         <div class="tooltip-row"><span class="tooltip-label">Power:</span><span class="tooltip-value">${d.power_hp} hp</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">0-100:</span><span class="tooltip-value">${d.acceleration_0_100}s</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">Drive:</span><span class="tooltip-value">${d.drive}</span></div>
+                        <div class="tooltip-row"><span class="tooltip-label">Size:</span><span class="tooltip-value">${d.size}</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">Cargo:</span><span class="tooltip-value">${d.cargo_liters}L</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">Seats:</span><span class="tooltip-value">${d.seats}</span></div>
                         <div class="tooltip-row"><span class="tooltip-label">Tow:</span><span class="tooltip-value">${d.tow_capacity_kg} kg</span></div>
@@ -988,31 +1018,31 @@
                     .attr('class', d => `legend-item${window.hiddenCategories.has(d) ? ' dimmed' : ''}`)
                     .html(d => `<div class="legend-color" style="background:${colorScale(d)}"></div><span>${d}</span>`)
                     .on('click', function(event, cat) {
-                        const item = d3.select(this);
-                        const isCurrentlyHidden = window.hiddenCategories.has(cat);
-
-                        if (isCurrentlyHidden) {
-                            // Show this category
+                        if (window.hiddenCategories.has(cat)) {
                             window.hiddenCategories.delete(cat);
-                            item.classed('dimmed', false);
                         } else {
-                            // Hide this category
                             window.hiddenCategories.add(cat);
-                            item.classed('dimmed', true);
                         }
+                        d3.select(this).classed('dimmed', window.hiddenCategories.has(cat));
+                        updateVisibility();
+                    });
+            }
 
-                        // Update path visibility (both foreground and hitarea)
-                        paths.each(function(d, i) {
-                            if (d[colorKey] === cat) {
-                                d3.select(this).style('display', isCurrentlyHidden ? null : 'none');
-                                d3.select(hitPaths.nodes()[i]).style('display', isCurrentlyHidden ? null : 'none');
-                            }
-                        });
-
-                        // Re-apply brush filters after showing
-                        if (isCurrentlyHidden) {
-                            updatePaths();
+            // Size filter (ev-database.org size classes)
+            function renderSizeFilter() {
+                d3.select('#sizeFilter').selectAll('.legend-item')
+                    .data(sizes)
+                    .join('div')
+                    .attr('class', s => `legend-item${hiddenSizes.has(s) ? ' dimmed' : ''}`)
+                    .text(s => s)
+                    .on('click', function(event, size) {
+                        if (hiddenSizes.has(size)) {
+                            hiddenSizes.delete(size);
+                        } else {
+                            hiddenSizes.add(size);
                         }
+                        d3.select(this).classed('dimmed', hiddenSizes.has(size));
+                        updateVisibility();
                     });
             }
 
@@ -1025,14 +1055,10 @@
 
                 // Reset hidden categories when changing color scheme
                 window.hiddenCategories = new Set();
-                paths.style('display', null);
-                hitPaths.style('display', null);
 
                 paths.attr('stroke', d => colorScale(d[colorKey]));
                 updateLegend();
-
-                // Re-apply brush filters
-                updatePaths();
+                updateVisibility();
             });
 
             // Highlight dropdown
@@ -1062,8 +1088,9 @@
                 axes.selectAll('.brush').each(function(dim) {
                     d3.select(this).call(brushes[dim.key].move, null);
                 });
-                // Reset hidden categories
+                // Reset hidden categories and size filter
                 window.hiddenCategories = new Set();
+                hiddenSizes.clear();
                 paths.classed('dimmed', false).classed('selected', false).classed('highlighted', false).style('display', null);
                 hitPaths.style('display', null).style('pointer-events', null);
                 d3.selectAll('.legend-item').classed('dimmed', false);
@@ -1089,33 +1116,25 @@
 
                 // Add all categories to hidden set
                 categories.forEach(cat => window.hiddenCategories.add(cat));
-
-                // Hide all paths
-                paths.style('display', 'none');
-                hitPaths.style('display', 'none');
+                updateVisibility();
 
                 // Update legend visuals
-                d3.selectAll('.legend-item').classed('dimmed', true);
+                d3.selectAll('#legend .legend-item').classed('dimmed', true);
             });
 
             // Show All button
             d3.select('#selectAll').on('click', function() {
                 // Clear hidden categories
                 window.hiddenCategories = new Set();
-
-                // Show all paths
-                paths.style('display', null);
-                hitPaths.style('display', null);
+                updateVisibility();
 
                 // Update legend visuals
-                d3.selectAll('.legend-item').classed('dimmed', false);
-
-                // Re-apply brush filters
-                updatePaths();
+                d3.selectAll('#legend .legend-item').classed('dimmed', false);
             });
 
             // Initial render
             updateLegend();
+            renderSizeFilter();
 
             // Resize handler
             window.addEventListener('resize', () => {
