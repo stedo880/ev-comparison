@@ -6,14 +6,14 @@ Interactive visualization tool for comparing electric vehicles sold new in Swede
 
 ## Files
 
-- `evs.yaml` - EV dataset with 107 vehicles, specs, pricing (SEK), and references
+- `evs.yaml` - EV dataset with 195 vehicles, specs, pricing (SEK), and references
 - `index.html` - D3.js visualization with interactive parallel coordinates plot
 
 ## Data Structure
 
 Each EV entry in `evs.yaml` contains:
 - **Identity**: make, model, submodel, year
-- **Size**: segment (ev-database.org segment code, e.g. `JC`; the letter gives the size class - B: Compact, C: Medium, D: Large, E: Executive, F: Luxury - and a leading `J` means SUV body)
+- **Size**: segment (ev-database.org segment code, e.g. `JC`; the letter gives the size class - A: Mini, B: Compact, C: Medium, D: Large, E: Executive, F: Luxury, N: Passenger Van, S: Sports - and a leading `J` means SUV body)
 - **Pricing**: price_sek (Swedish Krona)
 - **Range/Battery**: range_km_wltp, battery_kwh
 - **Charging**: dc_charge_max_kw, charge_10_80_min
@@ -23,7 +23,7 @@ Each EV entry in `evs.yaml` contains:
 
 ## Current Makes
 
-Audi, BMW, BYD, Cupra, Ford, Hyundai, Jeep, Kia, Mercedes-Benz, MG, Mini, Peugeot, Polestar, Porsche, Renault, Skoda, Smart, Subaru, Tesla, Toyota, Volkswagen, Volvo
+Audi, BMW, BYD, Cupra, Ford, Hyundai, Jeep, Kia, Mercedes-Benz, MG, Mini, Nissan, Peugeot, Polestar, Porsche, Renault, Skoda, Smart, Subaru, Tesla, Toyota, Volkswagen, Volvo
 
 ## Data Sources
 
@@ -54,7 +54,7 @@ Colors are brand-inspired while maintaining visual distinction:
 - Audi: Red, BMW: Blue, BYD: Soft pink, Cupra: Copper
 - Ford: Violet, Hyundai: Cyan, Jeep: Olive, Kia: Orange
 - Mercedes-Benz: Silver, MG: Racing green, Mini: Lime
-- Peugeot: Indigo, Polestar: Ice blue, Porsche: Burgundy
+- Nissan: Warm grey, Peugeot: Indigo, Polestar: Ice blue, Porsche: Burgundy
 - Renault: Yellow, Skoda: Green, Smart: Teal, Subaru: Blue
 - Tesla: Magenta-red, Toyota: Deep orange
 - Volkswagen: Dark blue, Volvo: Blue-grey

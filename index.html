@@ -167,7 +167,7 @@
             .rotate-prompt {
                 display: flex;
             }
-            header, #chart, .tooltip, .panel-overlay, .side-panel {
+            header, #chart, footer, .tooltip, .panel-overlay, .side-panel {
                 display: none !important;
             }
         }
@@ -263,6 +263,16 @@
             width: 100%;
             height: calc(100vh - 45px);
             min-height: 400px;
+        }
+
+        footer {
+            position: fixed;
+            right: 15px;
+            bottom: 8px;
+            font-size: 0.7rem;
+            color: #666;
+            pointer-events: none;
+            z-index: 500;
         }
 
         .axis text {
@@ -504,6 +514,8 @@
 
     <svg id="chart"></svg>
 
+    <footer>Data updated August 2026</footer>
+
     <div class="tooltip" id="tooltip"></div>
 
 
@@ -606,6 +618,7 @@
                 'Jeep': '#827717',      // Jeep - olive green
                 'MG': '#1b5e20',        // MG - racing green (darker than Skoda)
                 'Mini': '#cddc39',      // Mini - lime (distinct from Renault yellow)
+                'Nissan': '#9e9e9e',    // Nissan - warm grey
                 'Smart': '#009688',     // Smart - teal
                 'Kia': '#ff7043',       // Kia - orange (differentiated from reds)
                 'Mercedes-Benz': '#a0a0a0', // Mercedes silver
@@ -628,9 +641,12 @@
                 .domain(drives)
                 .range(['#e94560', '#00d9ff', '#ffc107']);
 
+            // Seat count is ordered, so ramp the palette across however many options exist
+            // (a fixed list would silently recycle colors once there are more than a few)
             const seatColors = d3.scaleOrdinal()
                 .domain(seatOptions)
-                .range(['#00d9ff', '#e94560', '#ffc107']);
+                .range(seatOptions.map((_, i) =>
+                    d3.interpolateTurbo(0.25 + 0.7 * i / Math.max(1, seatOptions.length - 1))));
 
             let colorScale = makeColors;
             let colorKey = 'make';

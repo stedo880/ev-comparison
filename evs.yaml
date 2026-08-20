@@ -203,6 +203,94 @@ evs:
   - https://www.caranddriver.com/tesla/model-y-2025
   - https://hamphi.com/en/blogs/news/nya-tesla-model-y-performance
   dealer_url: https://www.tesla.com/sv_se/modely
+- make: Tesla
+  model: Model 3
+  submodel: Standard
+  year: 2026
+  segment: D
+  price_sek: 449990
+  range_km_wltp: 534
+  battery_kwh: 60
+  dc_charge_max_kw: 175
+  charge_10_80_min: 24
+  power_hp: 283
+  acceleration_0_100: 6.2
+  top_speed_kmh: 201
+  drive: RWD
+  cargo_liters: 594
+  seats: 5
+  tow_capacity_kg: 1000
+  notes: Entry trim (Oct 2025 naming), 64 kWh nominal (60 usable). Swedish deliveries from Feb 2026.
+  references:
+  - https://ev-database.org/car/3403/Tesla-Model-3-Standard-RWD
+  - https://www.vibilagare.se/nyheter/tesla-model-3-rwd-standard-pris-rackvidd-och-fakta
+  dealer_url: https://www.tesla.com/sv_se/model3/design
+- make: Tesla
+  model: Model 3
+  submodel: Premium RWD
+  year: 2026
+  segment: D
+  price_sek: 539990
+  range_km_wltp: 750
+  battery_kwh: 79
+  dc_charge_max_kw: 250
+  charge_10_80_min: 29
+  power_hp: 320
+  acceleration_0_100: 5.2
+  top_speed_kmh: 201
+  drive: RWD
+  cargo_liters: 594
+  seats: 5
+  tow_capacity_kg: 1000
+  notes: Long Range RWD renamed Premium RWD. WLTP 750 km on 18-inch wheels.
+  references:
+  - https://ev-database.org/car/3404/Tesla-Model-3-Premium-RWD
+  - https://www.vibilagare.se/nyheter/tesla-model-3-rwd-standard-pris-rackvidd-och-fakta
+  dealer_url: https://www.tesla.com/sv_se/model3/design
+- make: Tesla
+  model: Model 3
+  submodel: Premium AWD
+  year: 2026
+  segment: D
+  price_sek: 584990
+  range_km_wltp: 716
+  battery_kwh: 79
+  dc_charge_max_kw: 250
+  charge_10_80_min: 29
+  power_hp: 498
+  acceleration_0_100: 4.4
+  top_speed_kmh: 201
+  drive: AWD
+  cargo_liters: 594
+  seats: 5
+  tow_capacity_kg: 1000
+  notes: Long Range AWD renamed Premium AWD. WLTP 716 km on 18-inch wheels.
+  references:
+  - https://ev-database.org/car/3405/Tesla-Model-3-Premium-AWD
+  - https://automatos.se/auto/tesla-model-3-premium-awd/
+  dealer_url: https://www.tesla.com/sv_se/model3/design
+- make: Tesla
+  model: Model 3
+  submodel: Performance
+  year: 2026
+  segment: D
+  price_sek: ~661170
+  range_km_wltp: 571
+  battery_kwh: 79
+  dc_charge_max_kw: 250
+  charge_10_80_min: 29
+  power_hp: 627
+  acceleration_0_100: 3.4
+  top_speed_kmh: 262
+  drive: AWD
+  cargo_liters: 594
+  seats: 5
+  tow_capacity_kg: 0
+  notes: Top trim, 461 kW dual motor. No tow hitch available.
+  references:
+  - https://ev-database.org/car/3332/Tesla-Model-3-Performance
+  - https://automatos.se/autos/tesla/model-3/
+  dealer_url: https://www.tesla.com/sv_se/model3/design
 - make: Volkswagen
   model: ID.7
   submodel: Pro
@@ -495,6 +583,116 @@ evs:
   - https://ev-database.org/car/3572/Skoda-Enyaq-RS
   - https://www.car.info/en-se/skoda/enyaq-iv/enyaq-iv-s-2025-121282837
   dealer_url: https://www.skoda.se/modeller/enyaq
+- make: Skoda
+  model: Elroq
+  submodel: '60'
+  year: 2027
+  segment: JC
+  price_sek: 449500
+  range_km_wltp: 453
+  battery_kwh: 58
+  dc_charge_max_kw: 105
+  charge_10_80_min: 28
+  power_hp: 190
+  acceleration_0_100: 8.5
+  top_speed_kmh: 160
+  drive: RWD
+  cargo_liters: 470
+  seats: 5
+  tow_capacity_kg: 1000
+  notes: MY27 refresh. New 58 kWh battery with lower 105 kW DC peak than MY26.
+  references:
+  - https://ev-database.org/car/3565/Skoda-Elroq-60
+  - https://elbilskompassen.se/modeller/skoda-elroq
+  dealer_url: https://www.skoda.se/modeller/elroq/elroq
+- make: Skoda
+  model: Elroq
+  submodel: '85'
+  year: 2027
+  segment: JC
+  price_sek: 499900
+  range_km_wltp: 576
+  battery_kwh: 77
+  dc_charge_max_kw: 165
+  charge_10_80_min: 30
+  power_hp: 286
+  acceleration_0_100: 6.6
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 470
+  seats: 5
+  tow_capacity_kg: 1800
+  notes: MY27, same 210 kW drivetrain as Enyaq 85. Sportline from 469,900 SEK on 60 battery.
+  references:
+  - https://ev-database.org/car/3566/Skoda-Elroq-85
+  - https://hurbra.se/skoda-elroq-2026-test/
+  dealer_url: https://www.skoda.se/modeller/elroq/elroq
+- make: Skoda
+  model: Elroq
+  submodel: RS
+  year: 2027
+  segment: JC
+  price_sek: 591900
+  range_km_wltp: 562
+  battery_kwh: 77
+  dc_charge_max_kw: 165
+  charge_10_80_min: 30
+  power_hp: 340
+  acceleration_0_100: 5.4
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 470
+  seats: 5
+  tow_capacity_kg: 1800
+  notes: Most powerful Elroq, 250 kW dual motor.
+  references:
+  - https://ev-database.org/car/3568/Skoda-Elroq-RS
+  - https://www.skoda.se/modeller/elroq/elroq
+  dealer_url: https://www.skoda.se/modeller/elroq/elroq
+- make: Skoda
+  model: Enyaq Coupe
+  submodel: RS
+  year: 2027
+  segment: JC
+  price_sek: 705900
+  range_km_wltp: 575
+  battery_kwh: 77
+  dc_charge_max_kw: 165
+  charge_10_80_min: 30
+  power_hp: 340
+  acceleration_0_100: 5.4
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 570
+  seats: 5
+  tow_capacity_kg: 2200
+  notes: Coupe body sold in Sweden only as RS (Solid Edition).
+  references:
+  - https://ev-database.org/car/3576/Skoda-Enyaq-Coupe-RS
+  - https://www.skoda.se/modeller/enyaq/enyaq-coupe-rs
+  dealer_url: https://www.skoda.se/modeller/enyaq/enyaq-coupe-rs
+- make: Skoda
+  model: Epiq
+  submodel: '55'
+  year: 2027
+  segment: JB
+  price_sek: 388900
+  range_km_wltp: 441
+  battery_kwh: 51.7
+  dc_charge_max_kw: 105
+  charge_10_80_min: 24
+  power_hp: 211
+  acceleration_0_100: 7.1
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 475
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: New 4.1 m compact SUV, on sale in Sweden since May 2026. Launch price (ordinary list 407,500 SEK).
+  references:
+  - https://ev-database.org/car/3622/Skoda-Epiq-55
+  - https://www.automotorsport.se/nyheter/skoda-epiq-gor-entre-sa-blir-lanseringspriset/
+  dealer_url: https://www.skoda.se/modeller/epiq/epiq
 - make: Toyota
   model: bZ4X
   submodel: FWD
@@ -562,6 +760,94 @@ evs:
   - https://ev-database.org/car/3135/Toyota-bZ4X-AWD-731-kWh
   - https://www.toyota.se/bilar/kampanjer/bz4x
   dealer_url: https://www.toyota.se/nya-bilar/bz4x
+- make: Toyota
+  model: C-HR+
+  submodel: 77 kWh FWD
+  year: 2026
+  segment: JC
+  price_sek: 519900
+  range_km_wltp: 609
+  battery_kwh: 72
+  dc_charge_max_kw: 150
+  charge_10_80_min: 29
+  power_hp: 224
+  acceleration_0_100: 7.3
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 416
+  seats: 5
+  tow_capacity_kg: 750
+  notes: New electric crossover on e-TNGA. Sweden only gets the 77 kWh battery (72 usable).
+  references:
+  - https://ev-database.org/car/3394/Toyota-C-HRplus-77-kWh
+  - https://elbilen.se/nyheter/priset-klart-det-kostar-nya-toyota-c-hr/
+  dealer_url: https://www.toyota.se/bilar/c-hr-plus
+- make: Toyota
+  model: C-HR+
+  submodel: 77 kWh AWD
+  year: 2026
+  segment: JC
+  price_sek: 540900
+  range_km_wltp: 505
+  battery_kwh: 72
+  dc_charge_max_kw: 150
+  charge_10_80_min: 29
+  power_hp: 343
+  acceleration_0_100: 5.2
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 416
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: Dual-motor AWD version, 343 hp.
+  references:
+  - https://ev-database.org/car/3395/Toyota-C-HRplus-77-kWh-AWD
+  - https://elbilen.se/nyheter/priset-klart-det-kostar-nya-toyota-c-hr/
+  dealer_url: https://www.toyota.se/bilar/c-hr-plus
+- make: Toyota
+  model: bZ4X Touring
+  submodel: FWD
+  year: 2026
+  segment: JD
+  price_sek: 569900
+  range_km_wltp: 591
+  battery_kwh: 71
+  dc_charge_max_kw: 150
+  charge_10_80_min: 29
+  power_hp: 227
+  acceleration_0_100: 7.2
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 600
+  seats: 5
+  tow_capacity_kg: 750
+  notes: Estate-style bZ4X, 140mm longer. 74.7 kWh gross / 71 usable.
+  references:
+  - https://ev-database.org/car/3400/Toyota-bZ4X-Touring-FWD-747-kWh
+  - https://alltomelbil.se/toyota-slapper-svenska-priser-pa-ny-rymlig-elbil-bz4x-touring/
+  dealer_url: https://www.toyota.se/bilar/bz4x-touring
+- make: Toyota
+  model: bZ4X Touring
+  submodel: AWD
+  year: 2026
+  segment: JD
+  price_sek: 607900
+  range_km_wltp: 528
+  battery_kwh: 71
+  dc_charge_max_kw: 150
+  charge_10_80_min: 29
+  power_hp: 381
+  acceleration_0_100: 4.4
+  top_speed_kmh: 160
+  drive: AWD
+  cargo_liters: 600
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: Most powerful non-GR Toyota EV (280 kW).
+  references:
+  - https://ev-database.org/car/3401/Toyota-bZ4X-Touring-AWD-747-kWh
+  - https://alltomelbil.se/toyota-slapper-svenska-priser-pa-ny-rymlig-elbil-bz4x-touring/
+  dealer_url: https://www.toyota.se/bilar/bz4x-touring
 - make: Subaru
   model: Solterra
   submodel: Limited
@@ -972,6 +1258,138 @@ evs:
   - https://ev-database.org/car/3398/Porsche-Cayenne-Electric
   - https://www.caranddriver.com/porsche/cayenne-ev
   dealer_url: https://www.porsche.com/sweden/models/cayenne/
+- make: Porsche
+  model: Taycan
+  submodel: null
+  year: 2026
+  segment: F
+  price_sek: 1240000
+  range_km_wltp: 590
+  battery_kwh: 82.3
+  dc_charge_max_kw: 270
+  charge_10_80_min: 19
+  power_hp: 408
+  acceleration_0_100: 4.8
+  top_speed_kmh: 230
+  drive: RWD
+  cargo_liters: 407
+  seats: 5
+  tow_capacity_kg: 0
+  notes: MY25 facelift base sedan. 89 kWh (82.3 usable) Performance Battery; 105 kWh Plus optional. 800V.
+  references:
+  - https://ev-database.org/car/2098/Porsche-Taycan
+  - https://www.porsche.com/sweden/models/taycan/
+  dealer_url: https://www.porsche.com/sweden/models/taycan/
+- make: Porsche
+  model: Taycan
+  submodel: 4S
+  year: 2026
+  segment: F
+  price_sek: 1430000
+  range_km_wltp: 557
+  battery_kwh: 82.3
+  dc_charge_max_kw: 270
+  charge_10_80_min: 19
+  power_hp: 544
+  acceleration_0_100: 3.7
+  top_speed_kmh: 250
+  drive: AWD
+  cargo_liters: 407
+  seats: 5
+  tow_capacity_kg: 0
+  notes: Volume AWD variant, 544 hp with launch control. Cross/Sport Turismo also sold.
+  references:
+  - https://ev-database.org/car/2100/Porsche-Taycan-4S
+  - https://www.porsche.com/sweden/models/taycan/
+  dealer_url: https://www.porsche.com/sweden/models/taycan/
+- make: Porsche
+  model: Cayenne Electric
+  submodel: S
+  year: 2026
+  segment: JE
+  price_sek: 1390000
+  range_km_wltp: 653
+  battery_kwh: 108
+  dc_charge_max_kw: 390
+  charge_10_80_min: 16
+  power_hp: 666
+  acceleration_0_100: 3.8
+  top_speed_kmh: 250
+  drive: AWD
+  cargo_liters: 781
+  seats: 5
+  tow_capacity_kg: 3000
+  notes: Mid variant, 666 hp with launch control. Up to 390 kW DC.
+  references:
+  - https://ev-database.org/car/3486/Porsche-Cayenne-S-Electric
+  - https://elbilen.se/nyheter/porsche-breddar-med-ny-mellanversion-av-cayenne-electric/
+  dealer_url: https://www.porsche.com/sweden/models/cayenne/
+- make: Porsche
+  model: Cayenne Electric
+  submodel: Turbo
+  year: 2026
+  segment: JE
+  price_sek: 1830000
+  range_km_wltp: 623
+  battery_kwh: 108
+  dc_charge_max_kw: 390
+  charge_10_80_min: 16
+  power_hp: 1156
+  acceleration_0_100: 2.5
+  top_speed_kmh: 260
+  drive: AWD
+  cargo_liters: 747
+  seats: 5
+  tow_capacity_kg: 3000
+  notes: Flagship, 1156 hp with launch control. Swedish deliveries from mid-2026.
+  references:
+  - https://ev-database.org/car/3399/Porsche-Cayenne-Turbo-Electric
+  - https://alltomelbil.se/premiar-nya-porsche-cayenne-electric-far-642-km-rackvidd-och-400-kw-snabbladdning/
+  dealer_url: https://www.porsche.com/sweden/models/cayenne/
+- make: Porsche
+  model: Macan Electric
+  submodel: GTS
+  year: 2026
+  segment: JD
+  price_sek: 1210000
+  range_km_wltp: 586
+  battery_kwh: 94.9
+  dc_charge_max_kw: 270
+  charge_10_80_min: 23
+  power_hp: 571
+  acceleration_0_100: 3.8
+  top_speed_kmh: 250
+  drive: AWD
+  cargo_liters: 476
+  seats: 5
+  tow_capacity_kg: 2500
+  notes: New for MY26, launched Oct 2025. Driver-focused chassis. Deliveries from early 2026.
+  references:
+  - https://ev-database.org/car/3381/Porsche-Macan-GTS-Electric
+  - https://www.vwgroup.se/nyheter--media/pressmeddelanden/2025/10/kraftfull-och-engagerande--porsche-lanserar-den-forsta-helt-eldrivna-macan-gts/
+  dealer_url: https://www.porsche.com/sweden/models/macan/
+- make: Porsche
+  model: Macan Electric
+  submodel: Turbo
+  year: 2026
+  segment: JD
+  price_sek: 1320000
+  range_km_wltp: 590
+  battery_kwh: 94.9
+  dc_charge_max_kw: 270
+  charge_10_80_min: 23
+  power_hp: 639
+  acceleration_0_100: 3.3
+  top_speed_kmh: 260
+  drive: AWD
+  cargo_liters: 480
+  seats: 5
+  tow_capacity_kg: 2500
+  notes: Top Macan variant, 639 hp with launch control. 800V architecture. MY26.
+  references:
+  - https://ev-database.org/car/3382/Porsche-Macan-Turbo-Electric
+  - https://www.porsche.com/sweden/models/macan/
+  dealer_url: https://www.porsche.com/sweden/models/macan/
 - make: Volvo
   model: EX30
   submodel: P5
@@ -1037,6 +1455,138 @@ evs:
   references:
   - https://ev-database.org/car/3481/Volvo-EX30-P8-AWD
   - https://www.caranddriver.com/volvo/ex30
+  dealer_url: https://www.volvocars.com/se/cars/ex30-electric/
+- make: Volvo
+  model: EX40
+  submodel: Single Motor Extended Range
+  year: 2026
+  segment: JC
+  price_sek: ~559000
+  range_km_wltp: 576
+  battery_kwh: 79
+  dc_charge_max_kw: 205
+  charge_10_80_min: 28
+  power_hp: 252
+  acceleration_0_100: 7.3
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 410
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: Renamed XC40 Recharge. Phase-out announced for 2027. Line from 529,900 SEK (Special Edition).
+  references:
+  - https://ev-database.org/car/3159/Volvo-EX40-Single-Motor-ER
+  - https://www.volvocarretail.se/bilar/volvo/modeller/ex40
+  dealer_url: https://www.volvocars.com/se/cars/ex40-electric/
+- make: Volvo
+  model: EX40
+  submodel: Twin Motor Performance
+  year: 2026
+  segment: JC
+  price_sek: ~689000
+  range_km_wltp: 537
+  battery_kwh: 79
+  dc_charge_max_kw: 205
+  charge_10_80_min: 28
+  power_hp: 442
+  acceleration_0_100: 4.6
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 410
+  seats: 5
+  tow_capacity_kg: 1800
+  notes: Top AWD variant.
+  references:
+  - https://ev-database.org/car/3161/Volvo-EX40-Twin-Motor-Performance
+  - https://www.baraelbilar.se/volvo-ex40-komplett-guide/
+  dealer_url: https://www.volvocars.com/se/cars/ex40-electric/
+- make: Volvo
+  model: EC40
+  submodel: Single Motor Extended Range
+  year: 2026
+  segment: JC
+  price_sek: 589900
+  range_km_wltp: 583
+  battery_kwh: 79
+  dc_charge_max_kw: 207
+  charge_10_80_min: 32
+  power_hp: 252
+  acceleration_0_100: 7.3
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 404
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: Coupe version of EX40 (ex C40 Recharge). Special Edition campaign from 529,900 SEK.
+  references:
+  - https://ev-database.org/car/3155/Volvo-EC40-Single-Motor-ER
+  - https://www.volvocarretail.se/bilar/volvo/modeller/ec40
+  dealer_url: https://www.volvocars.com/se/cars/ec40-electric/
+- make: Volvo
+  model: ES90
+  submodel: Single Motor Extended Range
+  year: 2026
+  segment: F
+  price_sek: 813000
+  range_km_wltp: 650
+  battery_kwh: 88
+  dc_charge_max_kw: 300
+  charge_10_80_min: 20
+  power_hp: 333
+  acceleration_0_100: 6.9
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 446
+  seats: 5
+  tow_capacity_kg: 1600
+  notes: 800V electric liftback sedan.
+  references:
+  - https://ev-database.org/car/3128/Volvo-ES90-Single-Motor
+  - https://www.volvocarretail.se/bilar/volvo/modeller/es90
+  dealer_url: https://www.volvocars.com/se/cars/es90-electric/
+- make: Volvo
+  model: ES90
+  submodel: Twin Motor
+  year: 2026
+  segment: F
+  price_sek: ~988000
+  range_km_wltp: 700
+  battery_kwh: 102
+  dc_charge_max_kw: 350
+  charge_10_80_min: 23
+  power_hp: 455
+  acceleration_0_100: 5.5
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 446
+  seats: 5
+  tow_capacity_kg: 2000
+  notes: AWD with 102 kWh usable battery and 350 kW charging. 700 km WLTP.
+  references:
+  - https://ev-database.org/car/3129/Volvo-ES90-Twin-Motor
+  - https://www.volvocarretail.se/bilar/volvo/modeller/es90
+  dealer_url: https://www.volvocars.com/se/cars/es90-electric/
+- make: Volvo
+  model: EX30 Cross Country
+  submodel: Twin Motor Performance
+  year: 2026
+  segment: JB
+  price_sek: 542000
+  range_km_wltp: 427
+  battery_kwh: 65
+  dc_charge_max_kw: 158
+  charge_10_80_min: 25
+  power_hp: 428
+  acceleration_0_100: 3.7
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 318
+  seats: 5
+  tow_capacity_kg: 1600
+  notes: Raised off-road variant of EX30, AWD only.
+  references:
+  - https://ev-database.org/car/3118/Volvo-EX30-Cross-Country
+  - https://www.bilmansson.se/kampanjer/ex30-cross-country/
   dealer_url: https://www.volvocars.com/se/cars/ex30-electric/
 - make: Kia
   model: EV9
@@ -1148,6 +1698,94 @@ evs:
   - https://ev-database.org/car/3151/Polestar-2-Long-Range-Single-Motor
   - https://www.caranddriver.com/polestar/polestar-2
   dealer_url: https://www.polestar.com/se/polestar-2/
+- make: Polestar
+  model: '2'
+  submodel: Long Range Dual Motor
+  year: 2026
+  segment: D
+  price_sek: 639000
+  range_km_wltp: 596
+  battery_kwh: 79
+  dc_charge_max_kw: 205
+  charge_10_80_min: 28
+  power_hp: 421
+  acceleration_0_100: 4.5
+  top_speed_kmh: 205
+  drive: AWD
+  cargo_liters: 407
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: MY26 AWD variant.
+  references:
+  - https://ev-database.org/car/3152/Polestar-2-Long-Range-Dual-Motor
+  - https://www.polestar.com/se/polestar-2/specifications/
+  dealer_url: https://www.polestar.com/se/polestar-2/
+- make: Polestar
+  model: '2'
+  submodel: Long Range Dual Motor Performance
+  year: 2026
+  segment: D
+  price_sek: 699000
+  range_km_wltp: 568
+  battery_kwh: 79
+  dc_charge_max_kw: 207
+  charge_10_80_min: 32
+  power_hp: 476
+  acceleration_0_100: 4.2
+  top_speed_kmh: 205
+  drive: AWD
+  cargo_liters: 407
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: MY26 Dual Motor with Performance pack.
+  references:
+  - https://ev-database.org/car/3153/Polestar-2-Long-Range-Performance
+  - https://www.polestar.com/se/polestar-2/specifications/
+  dealer_url: https://www.polestar.com/se/polestar-2/
+- make: Polestar
+  model: '5'
+  submodel: Dual Motor
+  year: 2026
+  segment: F
+  price_sek: 1345000
+  range_km_wltp: 678
+  battery_kwh: 106
+  dc_charge_max_kw: 350
+  charge_10_80_min: 22
+  power_hp: 748
+  acceleration_0_100: 3.9
+  top_speed_kmh: 250
+  drive: AWD
+  cargo_liters: 365
+  seats: 4
+  tow_capacity_kg: 1800
+  notes: Performance GT on 800V platform. 4-seat cabin. Swedish deliveries from spring 2026.
+  references:
+  - https://ev-database.org/car/3298/Polestar-5-Dual-Motor
+  - https://www.polestar.com/se/polestar-5/specifications/
+  dealer_url: https://www.polestar.com/se/polestar-5/
+- make: Polestar
+  model: '5'
+  submodel: Performance
+  year: 2026
+  segment: F
+  price_sek: 1599000
+  range_km_wltp: 558
+  battery_kwh: 106
+  dc_charge_max_kw: 350
+  charge_10_80_min: 22
+  power_hp: 884
+  acceleration_0_100: 3.2
+  top_speed_kmh: 250
+  drive: AWD
+  cargo_liters: 365
+  seats: 4
+  tow_capacity_kg: 1800
+  notes: Top Polestar 5 variant, 650 kW dual motor.
+  references:
+  - https://ev-database.org/car/3299/Polestar-5-Performance
+  - https://www.polestar.com/se/polestar-5/specifications/
+  dealer_url: https://www.polestar.com/se/polestar-5/
 - make: Volkswagen
   model: ID.4
   submodel: Pro
@@ -1544,6 +2182,72 @@ evs:
   - https://ev-database.org/car/3487/Audi-Q6-SUV-e-tron-quattro
   - https://www.audi.se/sv/models/q6-e-tron/
   dealer_url: https://www.audi.se/sv/models/q6-e-tron/
+- make: Audi
+  model: S e-tron GT
+  submodel: null
+  year: 2026
+  segment: F
+  price_sek: 1460000
+  range_km_wltp: 609
+  battery_kwh: 97
+  dc_charge_max_kw: 322
+  charge_10_80_min: 16
+  power_hp: 680
+  acceleration_0_100: 3.4
+  top_speed_kmh: 245
+  drive: AWD
+  cargo_liters: 405
+  seats: 4
+  tow_capacity_kg: 0
+  notes: Facelifted 2025 e-tron GT, 97 kWh usable, 800V charging up to ~320 kW. Base e-tron GT quattro 1,258,900 SEK also sold.
+  references:
+  - https://ev-database.org/car/2219/Audi-S-e-tron-GT
+  - https://www.automotorsport.se/nyheter/billigare-version-av-audi-e-tron-gt-spara-over-200-000-kr/
+  dealer_url: https://www.audi.se/sv/models/e-tron-gt/
+- make: Audi
+  model: RS e-tron GT
+  submodel: performance
+  year: 2026
+  segment: F
+  price_sek: 1860000
+  range_km_wltp: 592
+  battery_kwh: 97
+  dc_charge_max_kw: 322
+  charge_10_80_min: 16
+  power_hp: 925
+  acceleration_0_100: 2.5
+  top_speed_kmh: 250
+  drive: AWD
+  cargo_liters: 350
+  seats: 4
+  tow_capacity_kg: 0
+  notes: Most powerful production Audi ever (680 kW).
+  references:
+  - https://ev-database.org/car/2221/Audi-RS-e-tron-GT-performance
+  - https://www.automotorsport.se/nyheter/billigare-version-av-audi-e-tron-gt-spara-over-200-000-kr/
+  dealer_url: https://www.audi.se/sv/models/e-tron-gt/rs-e-tron-gt/
+- make: Audi
+  model: Q4 Sportback e-tron
+  submodel: performance
+  year: 2027
+  segment: JC
+  price_sek: 662700
+  range_km_wltp: 579
+  battery_kwh: 77
+  dc_charge_max_kw: 175
+  charge_10_80_min: 28
+  power_hp: 286
+  acceleration_0_100: 6.7
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 535
+  seats: 5
+  tow_capacity_kg: 1000
+  notes: May 2026 update renamed 45 to performance (210 kW). Coupe body of Q4 e-tron.
+  references:
+  - https://ev-database.org/car/2016/Audi-Q4-Sportback-e-tron-45
+  - https://elbilen.se/nyheter/priser-klara-for-uppdaterade-audi-q4-e-tron/
+  dealer_url: https://www.audi.se/sv/models/q4-e-tron/
 - make: Mercedes-Benz
   model: EQE
   submodel: 350+
@@ -1674,6 +2378,94 @@ evs:
   - https://ev-database.org/car/3407/Mercedes-Benz-GLB-350-4MATIC
   - https://www.mercedes-benz.com/en/vehicles/glb/
   dealer_url: https://www.mercedes-benz.se/personbilar/mercedes-benz-cars/glb.html
+- make: Mercedes-Benz
+  model: CLA
+  submodel: 250+
+  year: 2026
+  segment: D
+  price_sek: 633000
+  range_km_wltp: 792
+  battery_kwh: 85
+  dc_charge_max_kw: 320
+  charge_10_80_min: 18
+  power_hp: 272
+  acceleration_0_100: 6.7
+  top_speed_kmh: 210
+  drive: RWD
+  cargo_liters: 405
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: '800V MMA platform. Car of the Year in Europe 2026. Frunk: 101L. With EQ Technology.'
+  references:
+  - https://ev-database.org/car/3139/Mercedes-Benz-CLA-250plus
+  - https://www.mynewsdesk.com/se/mercedes-benz-sverige/pressreleases/svenska-priser-foer-nya-eldrivna-mercedes-benz-cla-fraan-633-000-kronor-3383223
+  dealer_url: https://www.mercedes-benz.se/passengercars/models/saloon/cla-electric/overview.html
+- make: Mercedes-Benz
+  model: CLA
+  submodel: 350 4MATIC
+  year: 2026
+  segment: D
+  price_sek: 673000
+  range_km_wltp: 773
+  battery_kwh: 85
+  dc_charge_max_kw: 320
+  charge_10_80_min: 18
+  power_hp: 354
+  acceleration_0_100: 4.9
+  top_speed_kmh: 210
+  drive: AWD
+  cargo_liters: 405
+  seats: 5
+  tow_capacity_kg: 1800
+  notes: 800V MMA platform. AWD performance variant. With EQ Technology.
+  references:
+  - https://ev-database.org/car/3140/Mercedes-Benz-CLA-350-4MATIC
+  - https://www.mynewsdesk.com/se/mercedes-benz-sverige/pressreleases/svenska-priser-foer-nya-eldrivna-mercedes-benz-cla-fraan-633-000-kronor-3383223
+  dealer_url: https://www.mercedes-benz.se/passengercars/models/saloon/cla-electric/overview.html
+- make: Mercedes-Benz
+  model: GLC
+  submodel: 400 4MATIC
+  year: 2026
+  segment: JD
+  price_sek: 769000
+  range_km_wltp: 715
+  battery_kwh: 94
+  dc_charge_max_kw: 330
+  charge_10_80_min: 22
+  power_hp: 489
+  acceleration_0_100: 4.3
+  top_speed_kmh: 210
+  drive: AWD
+  cargo_liters: 570
+  seats: 5
+  tow_capacity_kg: 2400
+  notes: '800V architecture, air suspension standard. Frunk: 128L. With EQ Technology. Swedish deliveries from March 2026.'
+  references:
+  - https://ev-database.org/car/3296/Mercedes-Benz-GLC-400-4MATIC
+  - https://www.mynewsdesk.com/se/mercedes-benz-sverige/pressreleases/saeljstart-i-sverige-foer-eldrivna-glc-pris-fraan-769-000-kronor-3411577
+  dealer_url: https://www.mercedes-benz.se/passengercars/models/suv/glc-electric/overview.html
+- make: Mercedes-Benz
+  model: G 580
+  submodel: with EQ Technology
+  year: 2026
+  segment: JF
+  price_sek: 1725000
+  range_km_wltp: 473
+  battery_kwh: 116
+  dc_charge_max_kw: 200
+  charge_10_80_min: 34
+  power_hp: 587
+  acceleration_0_100: 4.7
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 555
+  seats: 5
+  tow_capacity_kg: 0
+  notes: Electric G-Class, four motors, 1164 Nm. No tow hitch available.
+  references:
+  - https://ev-database.org/car/2192/Mercedes-Benz-G-580
+  - https://www.mynewsdesk.com/se/mercedes-benz-sverige/pressreleases/saeljstart-foer-eldrivna-g-klass-i-sverige-3318990
+  dealer_url: https://www.mercedes-benz.se/passengercars/models/electric.html
 - make: BMW
   model: i4
   submodel: eDrive40
@@ -1806,6 +2598,160 @@ evs:
   - https://ev-database.org/car/3110/BMW-iX-xDrive60
   - https://www.bmw.se/sv/alla-modeller/i-series/ix/bmw-ix.html
   dealer_url: https://www.bmw.se/sv/alla-modeller/bmw-i/ix.html
+- make: BMW
+  model: iX1
+  submodel: eDrive20
+  year: 2026
+  segment: JC
+  price_sek: 499900
+  range_km_wltp: 513
+  battery_kwh: 65.2
+  dc_charge_max_kw: 130
+  charge_10_80_min: 30
+  power_hp: 204
+  acceleration_0_100: 8.3
+  top_speed_kmh: 170
+  drive: FWD
+  cargo_liters: 490
+  seats: 5
+  tow_capacity_kg: 750
+  notes: MY26 update with larger 65.2 kWh usable battery. Active Edition campaign price.
+  references:
+  - https://ev-database.org/car/3458/BMW-iX1-eDrive20
+  - https://www.holmgrensbil.se/kampanjer/bmw/ix1
+  dealer_url: https://www.bmw.se/sv/alla-modeller/i-series/ix1/bmw-ix1.html
+- make: BMW
+  model: iX1
+  submodel: xDrive30
+  year: 2026
+  segment: JC
+  price_sek: 549900
+  range_km_wltp: 468
+  battery_kwh: 65.2
+  dc_charge_max_kw: 130
+  charge_10_80_min: 30
+  power_hp: 313
+  acceleration_0_100: 5.6
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 490
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: MY26 dual motor AWD. M Sport Active Edition price.
+  references:
+  - https://ev-database.org/car/3459/BMW-iX1-xDrive30
+  - https://www.baraelbilar.se/bmw-ix1-komplett-guide/
+  dealer_url: https://www.bmw.se/sv/alla-modeller/i-series/ix1/bmw-ix1.html
+- make: BMW
+  model: iX2
+  submodel: eDrive20
+  year: 2026
+  segment: JC
+  price_sek: 519900
+  range_km_wltp: 513
+  battery_kwh: 65.2
+  dc_charge_max_kw: 130
+  charge_10_80_min: 30
+  power_hp: 204
+  acceleration_0_100: 8.6
+  top_speed_kmh: 170
+  drive: FWD
+  cargo_liters: 525
+  seats: 5
+  tow_capacity_kg: 750
+  notes: SUV coupe version of iX1. MY26 with 65.2 kWh usable battery.
+  references:
+  - https://ev-database.org/car/3460/BMW-iX2-eDrive20
+  - https://hedinautomotive.se/bilar/kop-bil/77347/pc-sc-bmw-ix2
+  dealer_url: https://hitta.bmw.se/e/iX2
+- make: BMW
+  model: i7
+  submodel: eDrive50
+  year: 2026
+  segment: F
+  price_sek: 1321100
+  range_km_wltp: 611
+  battery_kwh: 101.7
+  dc_charge_max_kw: 200
+  charge_10_80_min: 30
+  power_hp: 455
+  acceleration_0_100: 5.5
+  top_speed_kmh: 205
+  drive: RWD
+  cargo_liters: 500
+  seats: 5
+  tow_capacity_kg: 0
+  notes: Entry i7 luxury sedan, RWD single motor. No tow hitch available.
+  references:
+  - https://ev-database.org/car/1905/BMW-i7-eDrive50
+  - https://automatos.se/autos/bmw/i7/
+  dealer_url: https://hitta.bmw.se/e/i7
+- make: BMW
+  model: i4
+  submodel: M60 xDrive
+  year: 2025
+  segment: D
+  price_sek: 777900
+  range_km_wltp: 551
+  battery_kwh: 81.1
+  dc_charge_max_kw: 205
+  charge_10_80_min: 28
+  power_hp: 601
+  acceleration_0_100: 3.7
+  top_speed_kmh: 225
+  drive: AWD
+  cargo_liters: 470
+  seats: 5
+  tow_capacity_kg: 1600
+  notes: Performance i4, replaced M50 mid-2025. Fully Charged Edition price.
+  references:
+  - https://ev-database.org/car/3207/BMW-i4-M60-xDrive
+  - https://automatos.se/autos/bmw/i4/
+  dealer_url: https://www.bmw.se/sv/alla-modeller/m-serie/bmw-i4-m60/bmw-i4-m60-xdrive-gran-coupe.html
+- make: BMW
+  model: i5
+  submodel: M60 xDrive Sedan
+  year: 2025
+  segment: E
+  price_sek: 1257000
+  range_km_wltp: 540
+  battery_kwh: 81.2
+  dc_charge_max_kw: 206
+  charge_10_80_min: 26
+  power_hp: 601
+  acceleration_0_100: 3.8
+  top_speed_kmh: 230
+  drive: AWD
+  cargo_liters: 490
+  seats: 5
+  tow_capacity_kg: 2000
+  notes: Performance i5 (MY25). Also sold as Touring estate.
+  references:
+  - https://ev-database.org/car/3114/BMW-i5-M60-xDrive-Sedan
+  - https://automatos.se/autos/bmw/i5/
+  dealer_url: https://hitta.bmw.se/e/i5
+- make: BMW
+  model: iX
+  submodel: M70 xDrive
+  year: 2025
+  segment: JE
+  price_sek: 1199000
+  range_km_wltp: 600
+  battery_kwh: 108.9
+  dc_charge_max_kw: 195
+  charge_10_80_min: 32
+  power_hp: 659
+  acceleration_0_100: 3.8
+  top_speed_kmh: 250
+  drive: AWD
+  cargo_liters: 500
+  seats: 5
+  tow_capacity_kg: 2500
+  notes: Top performance iX, replaced M60 in the 2025 facelift.
+  references:
+  - https://ev-database.org/car/3111/BMW-iX-M70-xDrive
+  - https://automatos.se/autos/bmw/ix/
+  dealer_url: https://www.bmw.se/sv/alla-modeller/m-serie/ix-m70/bmw-ix-m70.html
 - make: Hyundai
   model: Kona Electric
   submodel: 48 kWh
@@ -1850,6 +2796,72 @@ evs:
   - https://ev-database.org/car/1830/Hyundai-Kona-Electric-65-kWh
   - https://www.hyundai.com/se/sv/bilar/kona-electric.html
   dealer_url: https://www.hyundai.com/se/sv/bilar/kona-electric.html
+- make: Hyundai
+  model: Ioniq 6
+  submodel: Long Range RWD
+  year: 2025
+  segment: D
+  price_sek: 499900
+  range_km_wltp: 614
+  battery_kwh: 74
+  dc_charge_max_kw: 233
+  charge_10_80_min: 16
+  power_hp: 228
+  acceleration_0_100: 7.4
+  top_speed_kmh: 185
+  drive: RWD
+  cargo_liters: 401
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: Pre-facelift 77.4 kWh (74 usable) still sold in Sweden; 2026 facelift not yet available here.
+  references:
+  - https://ev-database.org/car/1718/Hyundai-IONIQ-6-Long-Range-2WD
+  - https://www.hyundai.com/se/sv/bilar/ioniq6/pris-och-utrustning.html
+  dealer_url: https://www.hyundai.com/se/sv/bilar/ioniq6.html
+- make: Hyundai
+  model: Ioniq 6
+  submodel: Long Range AWD
+  year: 2025
+  segment: D
+  price_sek: 549900
+  range_km_wltp: 583
+  battery_kwh: 74
+  dc_charge_max_kw: 233
+  charge_10_80_min: 16
+  power_hp: 325
+  acceleration_0_100: 5.1
+  top_speed_kmh: 185
+  drive: AWD
+  cargo_liters: 401
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: Pre-facelift AWD. Essential AWD from 549,900 kr.
+  references:
+  - https://ev-database.org/car/1719/Hyundai-IONIQ-6-Long-Range-AWD
+  - https://www.hyundai.com/se/sv/bilar/ioniq6/pris-och-utrustning.html
+  dealer_url: https://www.hyundai.com/se/sv/bilar/ioniq6.html
+- make: Hyundai
+  model: Ioniq 5 N
+  submodel: 84 kWh AWD
+  year: 2025
+  segment: JC
+  price_sek: 839900
+  range_km_wltp: 448
+  battery_kwh: 80
+  dc_charge_max_kw: 263
+  charge_10_80_min: 17
+  power_hp: 650
+  acceleration_0_100: 3.4
+  top_speed_kmh: 260
+  drive: AWD
+  cargo_liters: 480
+  seats: 5
+  tow_capacity_kg: 0
+  notes: Performance N model, 650 hp with N Grin Boost. No tow hitch possible.
+  references:
+  - https://ev-database.org/car/2044/Hyundai-IONIQ-5-N
+  - https://www.hyundai.com/se/sv/bilar/ioniq-5-n/pris-och-utrustning.html
+  dealer_url: https://www.hyundai.com/se/sv/bilar/ioniq-5-n.html
 - make: Kia
   model: EV3
   submodel: Standard Range
@@ -1960,6 +2972,72 @@ evs:
   - https://ev-database.org/car/3491/Kia-EV2-61-kWh
   - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
   dealer_url: https://www.kia.com/se/nya-bilar/ev2/premiere/
+- make: Kia
+  model: EV4
+  submodel: GT Line Long Range
+  year: 2026
+  segment: C
+  price_sek: 623400
+  range_km_wltp: 625
+  battery_kwh: 78
+  dc_charge_max_kw: 125
+  charge_10_80_min: 31
+  power_hp: 204
+  acceleration_0_100: 7.7
+  top_speed_kmh: 170
+  drive: FWD
+  cargo_liters: 435
+  seats: 5
+  tow_capacity_kg: 1000
+  notes: C-segment hatchback built in Slovakia. Swedish pricelist lists the hatch in GT Line trim only (AWD 658,400 SEK).
+  references:
+  - https://ev-database.org/car/3124/Kia-EV4-Hatchback-814-kWh
+  - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
+  dealer_url: https://www.kia.com/se/nya-bilar/ev4/
+- make: Kia
+  model: EV4
+  submodel: Fastback Plus Long Range
+  year: 2026
+  segment: C
+  price_sek: 594900
+  range_km_wltp: 612
+  battery_kwh: 78
+  dc_charge_max_kw: 125
+  charge_10_80_min: 31
+  power_hp: 204
+  acceleration_0_100: 7.7
+  top_speed_kmh: 170
+  drive: FWD
+  cargo_liters: 490
+  seats: 5
+  tow_capacity_kg: 1000
+  notes: Fastback body, Cd 0.23. Plus and GT Line (644,900 SEK) trims, FWD Long Range only.
+  references:
+  - https://ev-database.org/car/3122/Kia-EV4-Fastback-814-kWh
+  - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
+  dealer_url: https://www.kia.com/se/nya-bilar/ev4/
+- make: Kia
+  model: EV9
+  submodel: GT
+  year: 2026
+  segment: JF
+  price_sek: 992900
+  range_km_wltp: 505
+  battery_kwh: 96
+  dc_charge_max_kw: 233
+  charge_10_80_min: 24
+  power_hp: 508
+  acceleration_0_100: 4.4
+  top_speed_kmh: 200
+  drive: AWD
+  cargo_liters: 333
+  seats: 7
+  tow_capacity_kg: 2500
+  notes: Performance flagship, 99.8 kWh pack, 800V. 7-seat price; 6-seat 1,012,900 SEK.
+  references:
+  - https://ev-database.org/car/3196/Kia-EV9-998-kWh-AWD-GT
+  - https://www.kia.com/content/dam/kwcms/kme/se/sv/assets/contents/utility/prislista/kia-sweden-pricelist.pdf
+  dealer_url: https://www.kia.com/se/nya-bilar/ev9-gt/upptack/
 - make: Renault
   model: 5 E-Tech
   submodel: 52 kWh Techno
@@ -2070,6 +3148,138 @@ evs:
   - https://ev-database.org/car/3522/Volkswagen-ID3-Neo-79-kWh
   - https://www.vwgroup.se/nyheter--media/pressmeddelanden/2026/04/saljstart-for-nya-volkswagen-id.3-neo/
   dealer_url: https://www.volkswagen.se/sv/modeller/id3.html
+- make: Volkswagen
+  model: ID. Buzz
+  submodel: Pro
+  year: 2026
+  segment: N
+  price_sek: 589900
+  range_km_wltp: 461
+  battery_kwh: 79
+  dc_charge_max_kw: 185
+  charge_10_80_min: 26
+  power_hp: 286
+  acceleration_0_100: 7.6
+  top_speed_kmh: 160
+  drive: RWD
+  cargo_liters: 1121
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: Passenger van (normal wheelbase). GTX 4MOTION also sold from 659,900 SEK.
+  references:
+  - https://ev-database.org/car/2232/Volkswagen-ID-Buzz-NWB-Pro
+  - https://www.volkswagen-transportbilar.se/sv/modeller/id-buzz.html
+  dealer_url: https://www.volkswagen-transportbilar.se/sv/modeller/id-buzz.html
+- make: Volkswagen
+  model: ID.3
+  submodel: GTX
+  year: 2026
+  segment: C
+  price_sek: 544900
+  range_km_wltp: 604
+  battery_kwh: 79
+  dc_charge_max_kw: 185
+  charge_10_80_min: 26
+  power_hp: 286
+  acceleration_0_100: 5.9
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 385
+  seats: 5
+  tow_capacity_kg: 0
+  notes: Sporty RWD top version. GTX Performance (326 hp) from 594,900 SEK.
+  references:
+  - https://ev-database.org/car/2152/Volkswagen-ID3-GTX
+  - https://vwgroup.se/nyheter--media/pressmeddelanden/2024/08/saljstart-for-kraftfulla-volkswagen-id.3-gtx/
+  dealer_url: https://www.volkswagen.se/sv/elbilar/vara-elbilar/id3/gtx.html
+- make: Volkswagen
+  model: ID.4
+  submodel: GTX 4MOTION
+  year: 2026
+  segment: JC
+  price_sek: 599900
+  range_km_wltp: 529
+  battery_kwh: 79
+  dc_charge_max_kw: 185
+  charge_10_80_min: 26
+  power_hp: 340
+  acceleration_0_100: 5.4
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 543
+  seats: 5
+  tow_capacity_kg: 1800
+  notes: MY26 facelift GTX, 250 kW dual motor AWD. SWE Edition price.
+  references:
+  - https://ev-database.org/car/3252/Volkswagen-ID4-GTX
+  - https://www.volkswagen.se/sv/modeller/id4/gtx.html
+  dealer_url: https://www.volkswagen.se/sv/modeller/id4/gtx.html
+- make: Volkswagen
+  model: ID.7 Tourer
+  submodel: GTX
+  year: 2026
+  segment: E
+  price_sek: 699900
+  range_km_wltp: 574
+  battery_kwh: 86
+  dc_charge_max_kw: 200
+  charge_10_80_min: 26
+  power_hp: 340
+  acceleration_0_100: 5.5
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 605
+  seats: 5
+  tow_capacity_kg: 1800
+  notes: AWD estate GTX with 86 kWh battery (91 gross). GTX Tourer Edition price.
+  references:
+  - https://ev-database.org/car/3261/Volkswagen-ID7-Tourer-GTX
+  - https://alltomelbil.se/bekraftat-volkswagen-id-7-gtx-tourer-far-ett-svenskt-pris-fran-699-900-kr/
+  dealer_url: https://www.volkswagen.se/sv/modeller/id7-tourer/gtx.html
+- make: Volkswagen
+  model: ID. Polo
+  submodel: 52 kWh Life
+  year: 2026
+  segment: B
+  price_sek: 438900
+  range_km_wltp: 454
+  battery_kwh: 51.7
+  dc_charge_max_kw: 105
+  charge_10_80_min: 24
+  power_hp: 211
+  acceleration_0_100: 7.1
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 441
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: New MEB+ small hatchback. Order books opened July 2026, deliveries late 2026. Trend 37 kWh from 320,900 SEK.
+  references:
+  - https://ev-database.org/car/3581/Volkswagen-ID-Polo-52-kWh
+  - https://elbilen.se/nyheter/sa-ser-den-ut-och-det-kostar-volkswagen-id-polo/
+  dealer_url: https://www.volkswagen.se/sv/modeller/id-polo.html
+- make: Volkswagen
+  model: ID. Cross
+  submodel: Life
+  year: 2026
+  segment: JB
+  price_sek: 461900
+  range_km_wltp: 427
+  battery_kwh: 51.7
+  dc_charge_max_kw: 105
+  charge_10_80_min: 24
+  power_hp: 211
+  acceleration_0_100: 7.1
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 475
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: Compact SUV sibling of ID. Polo. Orderable now, deliveries from late 2026.
+  references:
+  - https://ev-database.org/car/3673/Volkswagen-ID-Cross-155-kW---52-kWh
+  - https://www.vwgroup.se/nyheter--media/pressmeddelanden/2026/07/varldspremiar-for-volkswagens-helt-nya-elbil-id.-cross--premiumklass-i-kompakt-format
+  dealer_url: https://www.volkswagen.se/sv/modeller/id-cross.html
 - make: Peugeot
   model: E-2008
   submodel: Electric 156
@@ -2092,6 +3302,116 @@ evs:
   - https://ev-database.org/car/1947/Peugeot-e-2008-54-kWh
   - https://dokument.peugeot.se/prislistor/personbilar/2008.pdf
   dealer_url: https://www.peugeot.se/modeller/e-2008.html
+- make: Peugeot
+  model: E-3008
+  submodel: Electric 210 GT
+  year: 2026
+  segment: JC
+  price_sek: 454900
+  range_km_wltp: 525
+  battery_kwh: 73
+  dc_charge_max_kw: 160
+  charge_10_80_min: 34
+  power_hp: 210
+  acceleration_0_100: 8.8
+  top_speed_kmh: 170
+  drive: FWD
+  cargo_liters: 520
+  seats: 5
+  tow_capacity_kg: 1250
+  notes: Fastback SUV sibling of E-5008. Big 2026 price cut, GT now entry trim. AWD Electric 320 4x4 from 494,900 SEK.
+  references:
+  - https://ev-database.org/car/2003/Peugeot-e-3008-73-kWh
+  - https://dokument.peugeot.se/prislistor/personbilar/3008.pdf
+  dealer_url: https://www.peugeot.se/modeller/3008/el.html
+- make: Peugeot
+  model: E-3008
+  submodel: Electric 230 Long Range GT
+  year: 2026
+  segment: JC
+  price_sek: 529900
+  range_km_wltp: 700
+  battery_kwh: 96.9
+  dc_charge_max_kw: 160
+  charge_10_80_min: 30
+  power_hp: 230
+  acceleration_0_100: 8.7
+  top_speed_kmh: 170
+  drive: FWD
+  cargo_liters: 520
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: 700 km WLTP, longest range in class. 97 kWh (96.9 usable) NMC pack.
+  references:
+  - https://ev-database.org/car/2005/Peugeot-e-3008-97-kWh-Long-Range
+  - https://dokument.peugeot.se/prislistor/personbilar/3008.pdf
+  dealer_url: https://www.peugeot.se/modeller/3008/el.html
+- make: Peugeot
+  model: E-208
+  submodel: Electric 156 GT
+  year: 2026
+  segment: B
+  price_sek: 349900
+  range_km_wltp: 425
+  battery_kwh: 50.8
+  dc_charge_max_kw: 100
+  charge_10_80_min: 27
+  power_hp: 156
+  acceleration_0_100: 8.2
+  top_speed_kmh: 150
+  drive: FWD
+  cargo_liters: 309
+  seats: 5
+  tow_capacity_kg: 0
+  notes: Updated 54 kWh pack (50.8 usable). Only GT trim sold in Sweden. No towbar for the EV.
+  references:
+  - https://ev-database.org/car/3223/Peugeot-e-208-54-kWh
+  - https://dokument.peugeot.se/prislistor/personbilar/208.pdf
+  dealer_url: https://www.peugeot.se/modeller/e-208.html
+- make: Peugeot
+  model: E-Rifter
+  submodel: L1 Allure 50 kWh
+  year: 2026
+  segment: N
+  price_sek: 529900
+  range_km_wltp: 320
+  battery_kwh: 50
+  dc_charge_max_kw: 100
+  charge_10_80_min: 26
+  power_hp: 136
+  acceleration_0_100: 11.7
+  top_speed_kmh: 130
+  drive: FWD
+  cargo_liters: 775
+  seats: 5
+  tow_capacity_kg: 750
+  notes: Van-based MPV, EV-only in Sweden. L2 7-seat version 549,900 SEK.
+  references:
+  - https://ev-database.org/car/2163/Peugeot-e-Rifter-M-50-kWh
+  - https://dokument.peugeot.se/prislistor/personbilar/rifter.pdf
+  dealer_url: https://www.peugeot.se/modeller/e-rifter.html
+- make: Peugeot
+  model: E-Traveller
+  submodel: L3 75 kWh Active
+  year: 2026
+  segment: N
+  price_sek: 739900
+  range_km_wltp: 342
+  battery_kwh: 69
+  dc_charge_max_kw: 100
+  charge_10_80_min: 38
+  power_hp: 136
+  acceleration_0_100: 14.2
+  top_speed_kmh: 130
+  drive: FWD
+  cargo_liters: 989
+  seats: 8
+  tow_capacity_kg: 1000
+  notes: 8-seat electric minibus (9-seat option). Only Electric L3 75 kWh sold in Sweden.
+  references:
+  - https://ev-database.org/car/2259/Peugeot-e-Traveller-L3-75-kWh
+  - https://dokument.peugeot.se/prislistor/personbilar/traveller.pdf
+  dealer_url: https://www.peugeot.se/modeller/e-traveller.html
 - make: BYD
   model: Atto 2
   submodel: Comfort 64.8 kWh
@@ -2114,6 +3434,72 @@ evs:
   - https://ev-database.org/car/3268/BYD-ATTO-2-648-kWh
   - https://www.vibilagare.se/nyheter/svenska-priser-byd-atto-3-evo-och-byd-atto-2
   dealer_url: https://www.byd.com/se/electric-cars/atto-2.html
+- make: BYD
+  model: Sealion 7
+  submodel: Comfort
+  year: 2026
+  segment: JD
+  price_sek: 569900
+  range_km_wltp: 482
+  battery_kwh: 82.5
+  dc_charge_max_kw: 150
+  charge_10_80_min: 32
+  power_hp: 313
+  acceleration_0_100: 6.7
+  top_speed_kmh: 215
+  drive: RWD
+  cargo_liters: 520
+  seats: 5
+  tow_capacity_kg: 750
+  notes: Base RWD version. 82.5 kWh usable Blade battery.
+  references:
+  - https://ev-database.org/car/3070/BYD-SEALION-7-825-kWh-RWD-Comfort
+  - https://www.vibilagare.se/nyheter/svenska-priser-pa-byd-sealion-7-och-seal-6-touring
+  dealer_url: https://www.byd.com/se/electric-cars/sealion-7.html
+- make: BYD
+  model: Sealion 7
+  submodel: Excellence AWD
+  year: 2026
+  segment: JD
+  price_sek: 639900
+  range_km_wltp: 502
+  battery_kwh: 91.3
+  dc_charge_max_kw: 230
+  charge_10_80_min: 24
+  power_hp: 530
+  acceleration_0_100: 4.5
+  top_speed_kmh: 215
+  drive: AWD
+  cargo_liters: 520
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: Top AWD trim with 91.3 kWh usable battery.
+  references:
+  - https://ev-database.org/car/3072/BYD-SEALION-7-913-kWh-AWD-Excellence
+  - https://www.vibilagare.se/nyheter/svenska-priser-pa-byd-sealion-7-och-seal-6-touring
+  dealer_url: https://www.byd.com/se/electric-cars/sealion-7.html
+- make: BYD
+  model: Atto 3 Evo
+  submodel: Design RWD
+  year: 2026
+  segment: JC
+  price_sek: 494900
+  range_km_wltp: 510
+  battery_kwh: 74.8
+  dc_charge_max_kw: 220
+  charge_10_80_min: 25
+  power_hp: 313
+  acceleration_0_100: 5.5
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 490
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: MY26 successor to Atto 3 on 800V platform. AWD Excellence trim also offered.
+  references:
+  - https://ev-database.org/car/3474/BYD-ATTO-3-Evo-RWD-Design
+  - https://www.vibilagare.se/nyheter/svenska-priser-byd-atto-3-evo-och-byd-atto-2
+  dealer_url: https://www.byd.com/se/electric-cars/atto-3-evo.html
 - make: Cupra
   model: Born
   submodel: 58 kWh
@@ -2158,6 +3544,94 @@ evs:
   - https://ev-database.org/car/3513/CUPRA-Born-VZ
   - https://www.cupraofficial.se/bilar/born
   dealer_url: https://www.cupraofficial.se/bilar/born
+- make: Cupra
+  model: Tavascan
+  submodel: Endurance
+  year: 2026
+  segment: JC
+  price_sek: 534900
+  range_km_wltp: 568
+  battery_kwh: 77
+  dc_charge_max_kw: 135
+  charge_10_80_min: 28
+  power_hp: 286
+  acceleration_0_100: 6.8
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 540
+  seats: 5
+  tow_capacity_kg: 1000
+  notes: RWD long-range variant, sold as Tavascan Drive 2WD Swedish Edition (launch list 564,900).
+  references:
+  - https://ev-database.org/car/1971/CUPRA-Tavascan-Endurance
+  - https://www.cupraofficial.se/kopa/erbjudande/tavascan
+  dealer_url: https://www.cupraofficial.se/bilar/tavascan
+- make: Cupra
+  model: Tavascan
+  submodel: VZ
+  year: 2026
+  segment: JC
+  price_sek: 579900
+  range_km_wltp: 521
+  battery_kwh: 77
+  dc_charge_max_kw: 135
+  charge_10_80_min: 28
+  power_hp: 340
+  acceleration_0_100: 5.5
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 540
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: Dual-motor AWD flagship. Swedish Edition price (launch list 654,900).
+  references:
+  - https://ev-database.org/car/1972/CUPRA-Tavascan-VZ
+  - https://www.cupraofficial.se/kopa/erbjudande/tavascan
+  dealer_url: https://www.cupraofficial.se/bilar/tavascan
+- make: Cupra
+  model: Raval
+  submodel: Endurance
+  year: 2027
+  segment: B
+  price_sek: 425900
+  range_km_wltp: 444
+  battery_kwh: 52
+  dc_charge_max_kw: 105
+  charge_10_80_min: 24
+  power_hp: 211
+  acceleration_0_100: 7.1
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 441
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: Long-range 52 kWh trim on MEB+ platform. Orderable since July 2026, deliveries from Sept 2026.
+  references:
+  - https://ev-database.org/car/3509/CUPRA-Raval-155-kW---52-kWh
+  - https://www.cupraofficial.se/bilar/raval
+  dealer_url: https://www.cupraofficial.se/bilar/raval
+- make: Cupra
+  model: Raval
+  submodel: VZ
+  year: 2027
+  segment: B
+  price_sek: 457900
+  range_km_wltp: 380
+  battery_kwh: 52
+  dc_charge_max_kw: 105
+  charge_10_80_min: 24
+  power_hp: 226
+  acceleration_0_100: 6.8
+  top_speed_kmh: 175
+  drive: FWD
+  cargo_liters: 441
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: FWD hot-hatch top trim.
+  references:
+  - https://ev-database.org/car/3510/CUPRA-Raval-VZ
+  - https://www.cupraofficial.se/bilar/raval
+  dealer_url: https://www.cupraofficial.se/bilar/raval
 - make: Ford
   model: Puma
   submodel: Gen-E
@@ -2181,6 +3655,72 @@ evs:
   - https://www.ford.se/bilar/personbilar-och-suver/puma-gen-e
   - https://alltomelbil.se/sa-mycket-kostar-helt-elektriska-ford-puma-i-sverige/
   dealer_url: https://www.ford.se/bilar/personbilar-och-suver/puma-gen-e
+- make: Ford
+  model: Explorer
+  submodel: Extended Range RWD
+  year: 2026
+  segment: JC
+  price_sek: 499000
+  range_km_wltp: 602
+  battery_kwh: 79
+  dc_charge_max_kw: 183
+  charge_10_80_min: 30
+  power_hp: 286
+  acceleration_0_100: 6.4
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 532
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: MY26 Nordic Edition on VW MEB platform. Heat pump standard. Style trim from 449,000 SEK.
+  references:
+  - https://ev-database.org/car/3454/Ford-Explorer-Extended-Range-RWD
+  - https://www.ford.se/bilar/personbilar-och-suver/explorer
+  dealer_url: https://www.ford.se/bilar/personbilar-och-suver/explorer
+- make: Ford
+  model: Capri
+  submodel: Extended Range RWD
+  year: 2026
+  segment: D
+  price_sek: 519000
+  range_km_wltp: 627
+  battery_kwh: 79
+  dc_charge_max_kw: 183
+  charge_10_80_min: 30
+  power_hp: 286
+  acceleration_0_100: 6.4
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 572
+  seats: 5
+  tow_capacity_kg: 1000
+  notes: MY26 Nordic Edition, coupe-SUV sibling of Explorer. ev-database segments it D (no J prefix).
+  references:
+  - https://ev-database.org/car/3452/Ford-Capri-Extended-Range-RWD
+  - https://www.ford.se/bilar/personbilar-och-suver/capri
+  dealer_url: https://www.ford.se/bilar/personbilar-och-suver/capri
+- make: Ford
+  model: Mustang Mach-E
+  submodel: Premium ER RWD
+  year: 2025
+  segment: JD
+  price_sek: 649000
+  range_km_wltp: 600
+  battery_kwh: 88
+  dc_charge_max_kw: 150
+  charge_10_80_min: 37
+  power_hp: 276
+  acceleration_0_100: 6.1
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 519
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: 'MY25 facelift with heat pump standard, 88 kWh usable. Frunk: 100L.'
+  references:
+  - https://ev-database.org/car/3188/Ford-Mustang-Mach-E-ER-RWD
+  - https://www.ford.se/bilar/personbilar-och-suver/mustang-mach-e
+  dealer_url: https://www.ford.se/bilar/personbilar-och-suver/mustang-mach-e
 - make: Jeep
   model: Avenger
   submodel: Electric 54 kWh
@@ -2204,6 +3744,28 @@ evs:
   - https://elbilen.se/nyheter/prisras-pa-jeep-avenger-sa-mycket-kostar-kompaktsuven/
   - https://www.jeep.com/se/jeep-avenger/new-jeep-avenger.html
   dealer_url: https://www.jeep.com/se/jeep-avenger/new-jeep-avenger.html
+- make: Jeep
+  model: Compass Electric
+  submodel: Standard Range
+  year: 2026
+  segment: JC
+  price_sek: 509900
+  range_km_wltp: 500
+  battery_kwh: 73.7
+  dc_charge_max_kw: 160
+  charge_10_80_min: 36
+  power_hp: 213
+  acceleration_0_100: 8.5
+  top_speed_kmh: 180
+  drive: FWD
+  cargo_liters: 550
+  seats: 5
+  tow_capacity_kg: 1000
+  notes: New generation on STLA Medium. AWD/Long Range announced for late 2026, not yet orderable.
+  references:
+  - https://ev-database.org/car/3181/Jeep-Compass-Electric-74-kWh
+  - https://alltomelbil.se/jeep-compass-slapps-som-elbil-fran-509-900-kronor/
+  dealer_url: https://www.jeep.com/se/
 - make: MG
   model: MG4
   submodel: Urban Comfort Long Range
@@ -2292,6 +3854,72 @@ evs:
   - https://ev-database.org/car/3146/MG-MGS5-EV-49-kWh
   - https://www.mynewsdesk.com/se/hedin-mg-sweden/pressreleases/mgs5-ev-helt-ny-elektrisk-suv-fraan-379-990-kr-3402852
   dealer_url: https://www.mgmotor.eu/sv-SE/model/mgs5
+- make: MG
+  model: MGS6 EV
+  submodel: Long Range
+  year: 2026
+  segment: JD
+  price_sek: 479990
+  range_km_wltp: 530
+  battery_kwh: 74.3
+  dc_charge_max_kw: 144
+  charge_10_80_min: 36
+  power_hp: 245
+  acceleration_0_100: 7.3
+  top_speed_kmh: 200
+  drive: RWD
+  cargo_liters: 493
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: Mid-size electric SUV above MGS5. 77 kWh nominal NMC battery. Swedish deliveries from June 2026.
+  references:
+  - https://ev-database.org/car/3418/MG-MGS6-EV-Long-Range-77-kWh
+  - https://www.mynewsdesk.com/se/hedin-mg-sweden/pressreleases/priserna-klara-foer-nya-mgs6-ev-elektrisk-suv-med-fyrhjulsdrift-och-hoeg-utrustningsnivaa-3441090
+  dealer_url: https://www.mgmotor.eu/sv-SE/model/mgs6
+- make: MG
+  model: MGS6 EV
+  submodel: Dual Motor AWD
+  year: 2026
+  segment: JD
+  price_sek: 499990
+  range_km_wltp: 485
+  battery_kwh: 74.3
+  dc_charge_max_kw: 144
+  charge_10_80_min: 36
+  power_hp: 362
+  acceleration_0_100: 5.1
+  top_speed_kmh: 200
+  drive: AWD
+  cargo_liters: 493
+  seats: 5
+  tow_capacity_kg: 1500
+  notes: AWD version, 266 kW dual motor.
+  references:
+  - https://ev-database.org/car/3419/MG-MGS6-EV-Dual-Motor-77-kWh
+  - https://www.mynewsdesk.com/se/hedin-mg-sweden/pressreleases/priserna-klara-foer-nya-mgs6-ev-elektrisk-suv-med-fyrhjulsdrift-och-hoeg-utrustningsnivaa-3441090
+  dealer_url: https://www.mgmotor.eu/sv-SE/model/mgs6
+- make: MG
+  model: Cyberster
+  submodel: GT Dual Motor
+  year: 2026
+  segment: S
+  price_sek: 849990
+  range_km_wltp: 443
+  battery_kwh: 74.4
+  dc_charge_max_kw: 144
+  charge_10_80_min: 39
+  power_hp: 510
+  acceleration_0_100: 3.2
+  top_speed_kmh: 200
+  drive: AWD
+  cargo_liters: 249
+  seats: 2
+  tow_capacity_kg: 0
+  notes: Two-seat electric roadster, 77 kWh nominal NMC. V2L. Soft top opens in 15 s.
+  references:
+  - https://ev-database.org/car/2203/MG-Cyberster-GT
+  - https://www.vibilagare.se/nyheter/svenska-priserna-klara-mg-cyberster
+  dealer_url: https://www.mgmotor.eu/sv-SE/model/cyberster
 - make: Mini
   model: Aceman
   submodel: E
@@ -2336,6 +3964,94 @@ evs:
   - https://ev-database.org/car/2191/Mini-Aceman-SE
   - https://elbilen.se/nyheter/priset-klart-sa-mycket-kostar-mini-aceman/
   dealer_url: https://www.mini.se/sv_SE/hem/modeller/helt-elektriska-mini-aceman.html
+- make: Mini
+  model: Cooper
+  submodel: E
+  year: 2026
+  segment: B
+  price_sek: 386900
+  range_km_wltp: 305
+  battery_kwh: 36.6
+  dc_charge_max_kw: 70
+  charge_10_80_min: 27
+  power_hp: 184
+  acceleration_0_100: 7.3
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 200
+  seats: 4
+  tow_capacity_kg: 0
+  notes: Entry electric Cooper 3-door hatch (J01), 40.7 kWh nominal battery.
+  references:
+  - https://ev-database.org/car/1997/Mini-Cooper-E
+  - https://www.bilia.se/bilar/mini/bilmodeller/mini-cooper-elbil/
+  dealer_url: https://www.mini.se/sv_SE/home/range/all-electric-mini-cooper.html
+- make: Mini
+  model: Cooper
+  submodel: SE
+  year: 2026
+  segment: B
+  price_sek: 431900
+  range_km_wltp: 402
+  battery_kwh: 49.2
+  dc_charge_max_kw: 95
+  charge_10_80_min: 29
+  power_hp: 218
+  acceleration_0_100: 6.7
+  top_speed_kmh: 170
+  drive: FWD
+  cargo_liters: 200
+  seats: 4
+  tow_capacity_kg: 0
+  notes: Long-range electric Cooper hatch, 54.2 kWh nominal battery.
+  references:
+  - https://ev-database.org/car/1998/Mini-Cooper-SE
+  - https://www.mynewsdesk.com/se/bmw_group_sverige/pressreleases/nu-kan-nya-mini-cooper-reserveras-online-3280483
+  dealer_url: https://www.mini.se/sv_SE/home/range/all-electric-mini-cooper.html
+- make: Mini
+  model: Countryman
+  submodel: E
+  year: 2026
+  segment: JC
+  price_sek: 430000
+  range_km_wltp: 501
+  battery_kwh: 65.2
+  dc_charge_max_kw: 128
+  charge_10_80_min: 34
+  power_hp: 204
+  acceleration_0_100: 8.6
+  top_speed_kmh: 170
+  drive: FWD
+  cargo_liters: 460
+  seats: 5
+  tow_capacity_kg: 750
+  notes: MY26 update with larger usable battery (65.2 kWh).
+  references:
+  - https://ev-database.org/car/3456/Mini-Countryman-E
+  - https://www.bilia.se/bilar/mini/bilmodeller/mini-countryman-elbil/
+  dealer_url: https://www.mini.se/sv_SE/hem/modeller/helt-elektriska-mini-countryman.html
+- make: Mini
+  model: Countryman
+  submodel: SE ALL4
+  year: 2026
+  segment: JC
+  price_sek: 475000
+  range_km_wltp: 467
+  battery_kwh: 65.2
+  dc_charge_max_kw: 128
+  charge_10_80_min: 31
+  power_hp: 313
+  acceleration_0_100: 5.6
+  top_speed_kmh: 180
+  drive: AWD
+  cargo_liters: 460
+  seats: 5
+  tow_capacity_kg: 1200
+  notes: MY26 dual-motor AWD Countryman, strongest Mini EV.
+  references:
+  - https://ev-database.org/car/3457/Mini-Countryman-SE-ALL4
+  - https://www.mynewsdesk.com/se/bmw_group_sverige/pressreleases/svenska-priser-foer-nya-mini-countryman-3282053
+  dealer_url: https://www.mini.se/sv_SE/hem/modeller/helt-elektriska-mini-countryman.html
 - make: Smart
   model: '#1'
   submodel: Pro+
@@ -2380,3 +4096,223 @@ evs:
   - https://ev-database.org/car/2053/Smart-1-Premium
   - https://xn--frmnsvrde-02ah5r.se/modeller/smart-%231
   dealer_url: https://se.smart.com/sv/models/hashtag-one/
+- make: Smart
+  model: '#3'
+  submodel: Pro+
+  year: 2024
+  segment: JB
+  price_sek: 479900
+  range_km_wltp: 435
+  battery_kwh: 62
+  dc_charge_max_kw: 150
+  charge_10_80_min: 30
+  power_hp: 272
+  acceleration_0_100: 5.8
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 370
+  seats: 5
+  tow_capacity_kg: 1600
+  notes: Coupe SUV sibling of #1 on Geely SEA platform.
+  references:
+  - https://ev-database.org/car/1999/Smart-3-Proplus
+  - https://media.smart.com/sv-SE/261540-de-svenska-priserna-for-nya-sportiga-smart-3-ar-har/
+  dealer_url: https://se.smart.com/sv/models/hashtag-three/
+- make: Smart
+  model: '#3'
+  submodel: Premium
+  year: 2024
+  segment: JB
+  price_sek: 509900
+  range_km_wltp: 455
+  battery_kwh: 62
+  dc_charge_max_kw: 150
+  charge_10_80_min: 30
+  power_hp: 272
+  acceleration_0_100: 5.8
+  top_speed_kmh: 180
+  drive: RWD
+  cargo_liters: 370
+  seats: 5
+  tow_capacity_kg: 1600
+  notes: Top single-motor #3. 22 kW AC, heat pump and HUD standard.
+  references:
+  - https://ev-database.org/car/2054/Smart-3-Premium
+  - https://media.smart.com/sv-SE/261540-de-svenska-priserna-for-nya-sportiga-smart-3-ar-har/
+  dealer_url: https://se.smart.com/sv/models/hashtag-three/
+- make: Smart
+  model: '#5'
+  submodel: Pro
+  year: 2025
+  segment: JD
+  price_sek: 566800
+  range_km_wltp: 465
+  battery_kwh: 74.4
+  dc_charge_max_kw: 150
+  charge_10_80_min: 30
+  power_hp: 340
+  acceleration_0_100: 6.9
+  top_speed_kmh: 200
+  drive: RWD
+  cargo_liters: 630
+  seats: 5
+  tow_capacity_kg: 1600
+  notes: Entry #5 with 74.4 kWh usable LFP pack on 400V system.
+  references:
+  - https://ev-database.org/car/3141/Smart-5-Pro
+  - https://alltomelbil.se/saljstart-for-smart-5-i-sverige-fran-566-800-kr/
+  dealer_url: https://se.smart.com/sv/models/hashtag-five/
+- make: Smart
+  model: '#5'
+  submodel: Pulse
+  year: 2025
+  segment: JD
+  price_sek: 661800
+  range_km_wltp: 540
+  battery_kwh: 96
+  dc_charge_max_kw: 400
+  charge_10_80_min: 18
+  power_hp: 587
+  acceleration_0_100: 4.9
+  top_speed_kmh: 200
+  drive: AWD
+  cargo_liters: 630
+  seats: 5
+  tow_capacity_kg: 1600
+  notes: Dual-motor AWD with 96 kWh usable NMC pack on 800V system, up to 400 kW DC.
+  references:
+  - https://ev-database.org/car/3144/Smart-5-Pulse
+  - https://alltomelbil.se/saljstart-for-smart-5-i-sverige-fran-566-800-kr/
+  dealer_url: https://se.smart.com/sv/models/hashtag-five/
+- make: Nissan
+  model: Ariya
+  submodel: 63 kWh Engage
+  year: 2026
+  segment: JC
+  price_sek: 513500
+  range_km_wltp: 404
+  battery_kwh: 63
+  dc_charge_max_kw: 130
+  charge_10_80_min: 31
+  power_hp: 218
+  acceleration_0_100: 7.5
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 468
+  seats: 5
+  tow_capacity_kg: 750
+  notes: Base FWD Ariya. Aug 2026 campaign from 413,500 SEK on stock cars.
+  references:
+  - https://ev-database.org/car/1301/Nissan-Ariya-63kWh
+  - https://www-europe.nissan-cdn.net/content/dam/Nissan/se/brochures/pricelists/ARIYA_Kundprislista.pdf
+  dealer_url: https://www.nissan.se/fordon/fordon-utbud/ariya.html
+- make: Nissan
+  model: Ariya
+  submodel: 87 kWh Advance
+  year: 2026
+  segment: JC
+  price_sek: 612200
+  range_km_wltp: 536
+  battery_kwh: 87
+  dc_charge_max_kw: 130
+  charge_10_80_min: 35
+  power_hp: 242
+  acceleration_0_100: 7.6
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 468
+  seats: 5
+  tow_capacity_kg: 750
+  notes: Long-range FWD. e-4ORCE AWD versions also sold (Evolve 674,200, Nismo 697,200 SEK).
+  references:
+  - https://ev-database.org/car/1302/Nissan-Ariya-87kWh
+  - https://www-europe.nissan-cdn.net/content/dam/Nissan/se/brochures/pricelists/ARIYA_Kundprislista.pdf
+  dealer_url: https://www.nissan.se/fordon/fordon-utbud/ariya.html
+- make: Nissan
+  model: Leaf
+  submodel: Standard Range 52 kWh
+  year: 2026
+  segment: C
+  price_sek: 429900
+  range_km_wltp: 445
+  battery_kwh: 52.9
+  dc_charge_max_kw: 105
+  charge_10_80_min: 33
+  power_hp: 177
+  acceleration_0_100: 8.6
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 437
+  seats: 5
+  tow_capacity_kg: 975
+  notes: Third-generation Leaf crossover (MY26). Engage trim.
+  references:
+  - https://ev-database.org/car/3365/Nissan-LEAF-Standard-Range-52-kWh
+  - https://alltomelbil.se/svensk-saljstart-for-nya-nissan-leaf-fran-429-900-kronor/
+  dealer_url: https://www.nissan.se/fordon/fordon-utbud/leaf.html
+- make: Nissan
+  model: Leaf
+  submodel: Extended Range 75 kWh
+  year: 2026
+  segment: C
+  price_sek: 462400
+  range_km_wltp: 624
+  battery_kwh: 75.1
+  dc_charge_max_kw: 150
+  charge_10_80_min: 32
+  power_hp: 218
+  acceleration_0_100: 7.6
+  top_speed_kmh: 160
+  drive: FWD
+  cargo_liters: 437
+  seats: 5
+  tow_capacity_kg: 975
+  notes: Engage trim at intro price (ordinary list 499,900 SEK).
+  references:
+  - https://ev-database.org/car/3366/Nissan-LEAF-Extended-Range-75-kWh
+  - https://alltomelbil.se/svensk-saljstart-for-nya-nissan-leaf-fran-429-900-kronor/
+  dealer_url: https://www.nissan.se/fordon/fordon-utbud/leaf.html
+- make: Nissan
+  model: Micra
+  submodel: 40 kWh Engage
+  year: 2026
+  segment: B
+  price_sek: 304500
+  range_km_wltp: 319
+  battery_kwh: 40
+  dc_charge_max_kw: 80
+  charge_10_80_min: 32
+  power_hp: 122
+  acceleration_0_100: 9
+  top_speed_kmh: 150
+  drive: FWD
+  cargo_liters: 326
+  seats: 5
+  tow_capacity_kg: 500
+  notes: New electric Micra (Renault 5 twin, built in France). Campaign price.
+  references:
+  - https://ev-database.org/car/3202/Nissan-Micra-Standard-Range-40-kWh
+  - https://micra.nissan.se/
+  dealer_url: https://micra.nissan.se/
+- make: Nissan
+  model: Micra
+  submodel: 52 kWh Advance
+  year: 2026
+  segment: B
+  price_sek: 386500
+  range_km_wltp: 419
+  battery_kwh: 52
+  dc_charge_max_kw: 100
+  charge_10_80_min: 31
+  power_hp: 150
+  acceleration_0_100: 8
+  top_speed_kmh: 150
+  drive: FWD
+  cargo_liters: 326
+  seats: 5
+  tow_capacity_kg: 500
+  notes: Extended Range 52 kWh. Cheapest 52 kWh trim (Evolve 396,500 SEK).
+  references:
+  - https://ev-database.org/car/3203/Nissan-Micra-Extended-Range-52-kWh
+  - https://micra.nissan.se/
+  dealer_url: https://micra.nissan.se/
